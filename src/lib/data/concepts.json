@@ -1,0 +1,3645 @@
+{
+  "generatedAt": "2026-05-12T02:08:27.167Z",
+  "sourceFile": "cpp_quant_interview_learning_resource.md",
+  "modules": [
+    {
+      "id": "m0",
+      "number": 0,
+      "title": "How to study this document",
+      "slug": "0-how-to-study-this-document",
+      "conceptIds": []
+    },
+    {
+      "id": "m1",
+      "number": 1,
+      "title": "The big picture: what C++ is trying to give you",
+      "slug": "1-the-big-picture-what-c-is-trying-to-give-you",
+      "conceptIds": [
+        "c1-1",
+        "c1-2",
+        "c1-3"
+      ]
+    },
+    {
+      "id": "m2",
+      "number": 2,
+      "title": "Basic C++ program structure",
+      "slug": "2-basic-c-program-structure",
+      "conceptIds": [
+        "c2-1",
+        "c2-2",
+        "c2-3",
+        "c2-4",
+        "c2-5"
+      ]
+    },
+    {
+      "id": "m3",
+      "number": 3,
+      "title": "Types, variables, and initialization",
+      "slug": "3-types-variables-and-initialization",
+      "conceptIds": [
+        "c3-1",
+        "c3-2",
+        "c3-3",
+        "c3-4",
+        "c3-5",
+        "c3-6"
+      ]
+    },
+    {
+      "id": "m4",
+      "number": 4,
+      "title": "Storage duration, scope, and lifetime",
+      "slug": "4-storage-duration-scope-and-lifetime",
+      "conceptIds": [
+        "c4-1",
+        "c4-2",
+        "c4-3",
+        "c4-4",
+        "c4-5",
+        "c4-6",
+        "c4-7"
+      ]
+    },
+    {
+      "id": "m5",
+      "number": 5,
+      "title": "Undefined behavior",
+      "slug": "5-undefined-behavior",
+      "conceptIds": [
+        "c5-1",
+        "c5-2",
+        "c5-3",
+        "c5-4"
+      ]
+    },
+    {
+      "id": "m6",
+      "number": 6,
+      "title": "RAII and resource management",
+      "slug": "6-raii-and-resource-management",
+      "conceptIds": [
+        "c6-1",
+        "c6-2",
+        "c6-3",
+        "c6-4",
+        "c6-5",
+        "c6-6",
+        "c6-7",
+        "c6-8"
+      ]
+    },
+    {
+      "id": "m7",
+      "number": 7,
+      "title": "Pointers, references, and ownership",
+      "slug": "7-pointers-references-and-ownership",
+      "conceptIds": [
+        "c7-1",
+        "c7-2",
+        "c7-3",
+        "c7-4",
+        "c7-5",
+        "c7-6",
+        "c7-7",
+        "c7-8",
+        "c7-9",
+        "c7-10",
+        "c7-11"
+      ]
+    },
+    {
+      "id": "m8",
+      "number": 8,
+      "title": "`const`, immutability, and API clarity",
+      "slug": "8-const-immutability-and-api-clarity",
+      "conceptIds": [
+        "c8-1",
+        "c8-2",
+        "c8-3",
+        "c8-4",
+        "c8-5",
+        "c8-6",
+        "c8-7"
+      ]
+    },
+    {
+      "id": "m9",
+      "number": 9,
+      "title": "Classes, constructors, destructors, and encapsulation",
+      "slug": "9-classes-constructors-destructors-and-encapsulation",
+      "conceptIds": [
+        "c9-1",
+        "c9-2",
+        "c9-3",
+        "c9-4",
+        "c9-5",
+        "c9-6",
+        "c9-7",
+        "c9-8"
+      ]
+    },
+    {
+      "id": "m10",
+      "number": 10,
+      "title": "Copying, moving, and value categories",
+      "slug": "10-copying-moving-and-value-categories",
+      "conceptIds": [
+        "c10-1",
+        "c10-2",
+        "c10-3",
+        "c10-4",
+        "c10-5",
+        "c10-6",
+        "c10-7",
+        "c10-8",
+        "c10-9",
+        "c10-10"
+      ]
+    },
+    {
+      "id": "m11",
+      "number": 11,
+      "title": "Object-oriented C++ and virtual functions",
+      "slug": "11-object-oriented-c-and-virtual-functions",
+      "conceptIds": [
+        "c11-1",
+        "c11-2",
+        "c11-3",
+        "c11-4",
+        "c11-5",
+        "c11-6",
+        "c11-7",
+        "c11-8",
+        "c11-9"
+      ]
+    },
+    {
+      "id": "m12",
+      "number": 12,
+      "title": "Templates and generic programming",
+      "slug": "12-templates-and-generic-programming",
+      "conceptIds": [
+        "c12-1",
+        "c12-2",
+        "c12-3",
+        "c12-4",
+        "c12-5",
+        "c12-6",
+        "c12-7",
+        "c12-8",
+        "c12-9",
+        "c12-10"
+      ]
+    },
+    {
+      "id": "m13",
+      "number": 13,
+      "title": "STL containers: beginner-to-intermediate depth",
+      "slug": "13-stl-containers-beginner-to-intermediate-depth",
+      "conceptIds": [
+        "c13-1",
+        "c13-2",
+        "c13-3",
+        "c13-4",
+        "c13-5",
+        "c13-6",
+        "c13-7",
+        "c13-8",
+        "c13-9",
+        "c13-10",
+        "c13-11",
+        "c13-12",
+        "c13-13"
+      ]
+    },
+    {
+      "id": "m14",
+      "number": 14,
+      "title": "Iterators and invalidation",
+      "slug": "14-iterators-and-invalidation",
+      "conceptIds": [
+        "c14-1",
+        "c14-2",
+        "c14-3",
+        "c14-4",
+        "c14-5"
+      ]
+    },
+    {
+      "id": "m15",
+      "number": 15,
+      "title": "Algorithms, lambdas, and idiomatic STL",
+      "slug": "15-algorithms-lambdas-and-idiomatic-stl",
+      "conceptIds": [
+        "c15-1",
+        "c15-2",
+        "c15-3",
+        "c15-4",
+        "c15-5",
+        "c15-6",
+        "c15-7"
+      ]
+    },
+    {
+      "id": "m16",
+      "number": 16,
+      "title": "Hash tables and probing",
+      "slug": "16-hash-tables-and-probing",
+      "conceptIds": [
+        "c16-1",
+        "c16-2",
+        "c16-3",
+        "c16-4",
+        "c16-5",
+        "c16-6",
+        "c16-7",
+        "c16-8"
+      ]
+    },
+    {
+      "id": "m17",
+      "number": 17,
+      "title": "Exceptions and error handling",
+      "slug": "17-exceptions-and-error-handling",
+      "conceptIds": [
+        "c17-1",
+        "c17-2",
+        "c17-3",
+        "c17-4",
+        "c17-5",
+        "c17-6"
+      ]
+    },
+    {
+      "id": "m18",
+      "number": 18,
+      "title": "Concurrency from novice to intermediate",
+      "slug": "18-concurrency-from-novice-to-intermediate",
+      "conceptIds": [
+        "c18-1",
+        "c18-2",
+        "c18-3",
+        "c18-4",
+        "c18-5",
+        "c18-6",
+        "c18-7",
+        "c18-8",
+        "c18-9",
+        "c18-10",
+        "c18-11",
+        "c18-12"
+      ]
+    },
+    {
+      "id": "m19",
+      "number": 19,
+      "title": "Memory layout and performance",
+      "slug": "19-memory-layout-and-performance",
+      "conceptIds": [
+        "c19-1",
+        "c19-2",
+        "c19-3",
+        "c19-4",
+        "c19-5",
+        "c19-6",
+        "c19-7"
+      ]
+    },
+    {
+      "id": "m20",
+      "number": 20,
+      "title": "Numerical C++ for quant roles",
+      "slug": "20-numerical-c-for-quant-roles",
+      "conceptIds": [
+        "c20-1",
+        "c20-2",
+        "c20-3",
+        "c20-4",
+        "c20-5",
+        "c20-6",
+        "c20-7"
+      ]
+    },
+    {
+      "id": "m21",
+      "number": 21,
+      "title": "CSV-to-columnar design",
+      "slug": "21-csv-to-columnar-design",
+      "conceptIds": [
+        "c21-1",
+        "c21-2",
+        "c21-3",
+        "c21-4",
+        "c21-5",
+        "c21-6"
+      ]
+    },
+    {
+      "id": "m22",
+      "number": 22,
+      "title": "Order book design in C++",
+      "slug": "22-order-book-design-in-c",
+      "conceptIds": [
+        "c22-1",
+        "c22-2",
+        "c22-3",
+        "c22-4",
+        "c22-5",
+        "c22-6",
+        "c22-7"
+      ]
+    },
+    {
+      "id": "m23",
+      "number": 23,
+      "title": "Trading-system design in C++",
+      "slug": "23-trading-system-design-in-c",
+      "conceptIds": [
+        "c23-1",
+        "c23-2",
+        "c23-3",
+        "c23-4",
+        "c23-5"
+      ]
+    },
+    {
+      "id": "m24",
+      "number": 24,
+      "title": "Build systems, linking, and ODR",
+      "slug": "24-build-systems-linking-and-odr",
+      "conceptIds": [
+        "c24-1",
+        "c24-2",
+        "c24-3",
+        "c24-4"
+      ]
+    },
+    {
+      "id": "m25",
+      "number": 25,
+      "title": "Testing and debugging C++",
+      "slug": "25-testing-and-debugging-c",
+      "conceptIds": [
+        "c25-1",
+        "c25-2",
+        "c25-3",
+        "c25-4"
+      ]
+    },
+    {
+      "id": "m26",
+      "number": 26,
+      "title": "High-yield interview question bank with expanded answers",
+      "slug": "26-high-yield-interview-question-bank-with-expanded-answers",
+      "conceptIds": [
+        "c26-1",
+        "c26-2",
+        "c26-3",
+        "c26-4",
+        "c26-5",
+        "c26-6",
+        "c26-7"
+      ]
+    },
+    {
+      "id": "m27",
+      "number": 27,
+      "title": "Coding drills to reach intermediate level",
+      "slug": "27-coding-drills-to-reach-intermediate-level",
+      "conceptIds": []
+    },
+    {
+      "id": "m28",
+      "number": 28,
+      "title": "Study plan: novice to intermediate",
+      "slug": "28-study-plan-novice-to-intermediate",
+      "conceptIds": []
+    },
+    {
+      "id": "m29",
+      "number": 29,
+      "title": "Final readiness checklist",
+      "slug": "29-final-readiness-checklist",
+      "conceptIds": []
+    },
+    {
+      "id": "m30",
+      "number": 30,
+      "title": "C++26 direction: coroutines, async, and `std::execution`",
+      "slug": "30-c-26-direction-coroutines-async-and-std-execution",
+      "conceptIds": [
+        "c30-1",
+        "c30-2",
+        "c30-3",
+        "c30-4",
+        "c30-5",
+        "c30-6",
+        "c30-7",
+        "c30-8",
+        "c30-9",
+        "c30-10",
+        "c30-11",
+        "c30-12",
+        "c30-13",
+        "c30-14",
+        "c30-15",
+        "c30-16",
+        "c30-17",
+        "c30-18",
+        "c30-19",
+        "c30-20",
+        "c30-21",
+        "c30-22",
+        "c30-23",
+        "c30-24",
+        "c30-25",
+        "c30-26",
+        "c30-27",
+        "c30-28"
+      ]
+    },
+    {
+      "id": "m31",
+      "number": 31,
+      "title": "C++26 features you should know for quant interviews",
+      "slug": "31-c-26-features-you-should-know-for-quant-interviews",
+      "conceptIds": [
+        "c31-1",
+        "c31-2",
+        "c31-3",
+        "c31-4",
+        "c31-5",
+        "c31-6",
+        "c31-7",
+        "c31-8"
+      ]
+    },
+    {
+      "id": "m32",
+      "number": 32,
+      "title": "Updated C++26 interview-readiness checklist",
+      "slug": "32-updated-c-26-interview-readiness-checklist",
+      "conceptIds": []
+    },
+    {
+      "id": "m33",
+      "number": 33,
+      "title": "Final advice",
+      "slug": "33-final-advice",
+      "conceptIds": []
+    }
+  ],
+  "concepts": [
+    {
+      "id": "c1-1",
+      "moduleId": "m1",
+      "moduleTitle": "The big picture: what C++ is trying to give you",
+      "moduleNumber": 1,
+      "number": "1.1",
+      "title": "C++ is a systems language with abstractions",
+      "slug": "1-1-c-is-a-systems-language-with-abstractions",
+      "body": "C++ gives you:\n\n- Direct memory control\n- Deterministic object destruction\n- Zero-cost abstractions when used well\n- High-performance standard library containers and algorithms\n- Generic programming with templates\n- Low-level concurrency primitives\n- Ability to build systems close to hardware\n\nThis is why C++ is common in:\n\n- Trading systems\n- Market data infrastructure\n- Pricing libraries\n- Risk engines\n- Simulation engines\n- Game engines\n- Databases\n- Compilers\n- Embedded systems\n- High-performance computing\n\nThe price is complexity. In C++, you must understand what owns memory, when objects die, and whether references/pointers remain valid.",
+      "tags": [],
+      "difficulty": "novice"
+    },
+    {
+      "id": "c1-2",
+      "moduleId": "m1",
+      "moduleTitle": "The big picture: what C++ is trying to give you",
+      "moduleNumber": 1,
+      "number": "1.2",
+      "title": "The most important C++ question",
+      "slug": "1-2-the-most-important-c-question",
+      "body": "For almost every C++ object, ask:\n\n> Who owns this object, where does it live, and when is it destroyed?\n\nIf you can answer that, many C++ bugs become easier to reason about.\n\nConsider:\n\n```cpp\nstd::vector<int> make_values() {\n    std::vector<int> v = {1, 2, 3};\n    return v;\n}\n```\n\nQuestions:\n\n- Where does `v` live?\n- Where do the vector elements live?\n- What happens when `v` is returned?\n- Who destroys the elements?\n\nAnswer:\n\n- The local vector object `v` has automatic storage duration inside the function.\n- Its elements are usually in heap-allocated memory owned by the vector.\n- Returning by value is efficient due to copy elision or move semantics.\n- The returned vector owns the elements and destroys them automatically.\n\nThis is the C++ mindset.",
+      "tags": [],
+      "difficulty": "novice"
+    },
+    {
+      "id": "c1-3",
+      "moduleId": "m1",
+      "moduleTitle": "The big picture: what C++ is trying to give you",
+      "moduleNumber": 1,
+      "number": "1.3",
+      "title": "What quant interviews care about",
+      "slug": "1-3-what-quant-interviews-care-about",
+      "body": "For quant developer/researcher C++ interviews, interviewers care about whether you can write correct, efficient code in a performance-sensitive environment.\n\nThey may ask about:\n\n- Why `std::vector` is usually faster than `std::list`\n- What happens when a vector reallocates\n- Why a base class destructor should be virtual\n- Why raw owning pointers are dangerous\n- How a hash table works\n- How to prevent deadlock\n- How to represent prices safely\n- How to design an order book\n- How to avoid unnecessary allocations in a hot path\n- How to write exception-safe code\n\nThey are testing your ability to reason, not just recite definitions.\n\n---",
+      "tags": [
+        "quant"
+      ],
+      "difficulty": "novice"
+    },
+    {
+      "id": "c2-1",
+      "moduleId": "m2",
+      "moduleTitle": "Basic C++ program structure",
+      "moduleNumber": 2,
+      "number": "2.1",
+      "title": "Minimal program",
+      "slug": "2-1-minimal-program",
+      "body": "```cpp\n#include <iostream>\n\nint main() {\n    std::cout << \"Hello, C++\\n\";\n    return 0;\n}\n```\n\nWhat each part means:\n\n```cpp\n#include <iostream>\n```\n\nThis includes declarations for input/output utilities such as `std::cout`.\n\n```cpp\nint main()\n```\n\n`main` is the program entry point. It returns an integer status code to the operating system.\n\n```cpp\nstd::cout << \"Hello, C++\\n\";\n```\n\n`std::cout` prints to standard output. `std::` means the name is inside the standard library namespace.",
+      "tags": [],
+      "difficulty": "novice"
+    },
+    {
+      "id": "c2-2",
+      "moduleId": "m2",
+      "moduleTitle": "Basic C++ program structure",
+      "moduleNumber": 2,
+      "number": "2.2",
+      "title": "Namespaces",
+      "slug": "2-2-namespaces",
+      "body": "A namespace groups names to avoid collisions.\n\n```cpp\nnamespace trading {\n    struct Order {};\n}\n\ntrading::Order order;\n```\n\nAvoid this in headers:\n\n```cpp\nusing namespace std;\n```\n\nWhy?\n\nBecause it pollutes every file that includes your header and can create name conflicts.\n\nIn `.cpp` files, limited use is less dangerous, but many professional teams still avoid it.",
+      "tags": [],
+      "difficulty": "novice"
+    },
+    {
+      "id": "c2-3",
+      "moduleId": "m2",
+      "moduleTitle": "Basic C++ program structure",
+      "moduleNumber": 2,
+      "number": "2.3",
+      "title": "Header and source files",
+      "slug": "2-3-header-and-source-files",
+      "body": "C++ often separates declarations and implementations.\n\nHeader file:\n\n```cpp\n// order.h\n#pragma once\n\nclass Order {\npublic:\n    explicit Order(int id);\n    int id() const;\n\nprivate:\n    int id_;\n};\n```\n\nSource file:\n\n```cpp\n// order.cpp\n#include \"order.h\"\n\nOrder::Order(int id) : id_(id) {}\n\nint Order::id() const {\n    return id_;\n}\n```\n\nThe header tells other files what exists. The source file defines how it works.",
+      "tags": [],
+      "difficulty": "novice"
+    },
+    {
+      "id": "c2-4",
+      "moduleId": "m2",
+      "moduleTitle": "Basic C++ program structure",
+      "moduleNumber": 2,
+      "number": "2.4",
+      "title": "Build mental model",
+      "slug": "2-4-build-mental-model",
+      "body": "C++ compilation roughly has these stages:\n\n1. Preprocessing: expands `#include` and macros.\n2. Compilation: turns each `.cpp` into object code.\n3. Linking: combines object files into an executable.\n\nThis matters because many C++ errors are either:\n\n- **Compile errors**: syntax/type errors in one translation unit.\n- **Link errors**: declarations exist but definitions are missing or duplicated.\n- **Runtime errors**: program compiles but fails while running.\n- **Undefined behavior**: program has no valid meaning, even if it appears to run.",
+      "tags": [],
+      "difficulty": "novice"
+    },
+    {
+      "id": "c2-5",
+      "moduleId": "m2",
+      "moduleTitle": "Basic C++ program structure",
+      "moduleNumber": 2,
+      "number": "2.5",
+      "title": "Interview questions",
+      "slug": "2-5-interview-questions",
+      "body": "### Q: What is a header file used for?\n\nStrong answer:\n\n> A header file usually contains declarations that other translation units need: class declarations, function declarations, templates, constants, and inline functions. Source files contain definitions. Headers are included textually by the preprocessor, so they should be clean, guarded, and should not define non-inline global variables.\n\n### Follow-up: What is a translation unit?\n\nAnswer:\n\n> A translation unit is a source file after preprocessing, meaning after all `#include` files and macros are expanded. The compiler compiles each translation unit separately, and the linker later combines them.\n\n### Follow-up: Why can templates be defined in headers?\n\nAnswer:\n\n> Templates need their definitions visible at the point of instantiation because the compiler generates code for specific template arguments. That is why most template code lives in headers.\n\n---",
+      "tags": [],
+      "difficulty": "novice"
+    },
+    {
+      "id": "c3-1",
+      "moduleId": "m3",
+      "moduleTitle": "Types, variables, and initialization",
+      "moduleNumber": 3,
+      "number": "3.1",
+      "title": "C++ is statically typed",
+      "slug": "3-1-c-is-statically-typed",
+      "body": "Every expression has a type known at compile time.\n\n```cpp\nint n = 5;\ndouble x = 3.14;\nstd::string s = \"AAPL\";\n```\n\nTypes matter because they determine:\n\n- Memory size\n- Operations allowed\n- Function overload selection\n- Copy/move behavior\n- Performance",
+      "tags": [],
+      "difficulty": "novice"
+    },
+    {
+      "id": "c3-2",
+      "moduleId": "m3",
+      "moduleTitle": "Types, variables, and initialization",
+      "moduleNumber": 3,
+      "number": "3.2",
+      "title": "Fundamental types",
+      "slug": "3-2-fundamental-types",
+      "body": "Common types:\n\n```cpp\nbool flag = true;\nchar c = 'A';\nint n = 42;\nlong long big = 1'000'000'000LL;\nfloat f = 1.5f;\ndouble d = 1.5;\n```\n\nFor precise-size integers, use `<cstdint>`:\n\n```cpp\n#include <cstdint>\n\nstd::int32_t x = 10;\nstd::int64_t y = 10000000000LL;\nstd::uint64_t id = 123;\n```\n\nIn trading systems, precise-size integers are common for IDs, timestamps, and price ticks.",
+      "tags": [],
+      "difficulty": "novice"
+    },
+    {
+      "id": "c3-3",
+      "moduleId": "m3",
+      "moduleTitle": "Types, variables, and initialization",
+      "moduleNumber": 3,
+      "number": "3.3",
+      "title": "Signed vs unsigned",
+      "slug": "3-3-signed-vs-unsigned",
+      "body": "```cpp\nint a = -1;\nunsigned int b = 1;\n```\n\nUnsigned values cannot represent negative numbers. Be careful mixing signed and unsigned:\n\n```cpp\nstd::vector<int> v = {1, 2, 3};\nfor (int i = 0; i < v.size(); ++i) { // warning: signed/unsigned comparison\n}\n```\n\n`v.size()` returns `std::size_t`, an unsigned type.\n\nBetter:\n\n```cpp\nfor (std::size_t i = 0; i < v.size(); ++i) {\n}\n```\n\nOr range loop:\n\n```cpp\nfor (int x : v) {\n}\n```\n\nInterview point:\n\n> Unsigned types are not automatically safer. They can underflow silently. Use them when the domain is naturally non-negative and you understand arithmetic behavior, but do not use unsigned merely to prevent negative values.",
+      "tags": [],
+      "difficulty": "novice"
+    },
+    {
+      "id": "c3-4",
+      "moduleId": "m3",
+      "moduleTitle": "Types, variables, and initialization",
+      "moduleNumber": 3,
+      "number": "3.4",
+      "title": "Initialization styles",
+      "slug": "3-4-initialization-styles",
+      "body": "C++ has several initialization forms:\n\n```cpp\nint a = 5;      // copy initialization\nint b(5);       // direct initialization\nint c{5};       // brace initialization\n```\n\nBrace initialization is often preferred because it prevents narrowing conversions:\n\n```cpp\nint x = 3.14;  // allowed, x becomes 3\nint y{3.14};   // error: narrowing conversion\n```\n\nFor novice-to-intermediate code, prefer braces when practical:\n\n```cpp\nstd::vector<int> values{1, 2, 3};\nOrder order{123, 100, 10125};\n```",
+      "tags": [],
+      "difficulty": "novice"
+    },
+    {
+      "id": "c3-5",
+      "moduleId": "m3",
+      "moduleTitle": "Types, variables, and initialization",
+      "moduleNumber": 3,
+      "number": "3.5",
+      "title": "`auto`",
+      "slug": "3-5-auto",
+      "body": "`auto` asks the compiler to deduce the type.\n\n```cpp\nauto x = 5;       // int\nauto y = 3.14;    // double\nauto s = std::string{\"AAPL\"};\n```\n\nGood uses:\n\n```cpp\nauto it = prices.find(\"AAPL\");\n```\n\nPotentially bad use:\n\n```cpp\nauto x = 0; // maybe unclear if int was intended\n```\n\nImportant: `auto` often drops references and top-level const.\n\n```cpp\nint n = 5;\nint& r = n;\nauto x = r;   // x is int, a copy\nauto& y = r;  // y is int&, reference\n```",
+      "tags": [],
+      "difficulty": "novice"
+    },
+    {
+      "id": "c3-6",
+      "moduleId": "m3",
+      "moduleTitle": "Types, variables, and initialization",
+      "moduleNumber": 3,
+      "number": "3.6",
+      "title": "Interview questions",
+      "slug": "3-6-interview-questions",
+      "body": "### Q: Why use brace initialization?\n\nAnswer:\n\n> Brace initialization gives a uniform syntax and prevents narrowing conversions. For example, `int x{3.14}` is rejected, while `int x = 3.14` silently truncates.\n\n### Q: Is `auto` good or bad?\n\nAnswer:\n\n> `auto` is useful when the type is obvious or verbose, such as iterators or template-heavy code. But it should not hide important information. Also, plain `auto` drops references, so use `auto&`, `const auto&`, or `decltype(auto)` when preserving reference semantics matters.\n\n---",
+      "tags": [],
+      "difficulty": "novice"
+    },
+    {
+      "id": "c4-1",
+      "moduleId": "m4",
+      "moduleTitle": "Storage duration, scope, and lifetime",
+      "moduleNumber": 4,
+      "number": "4.1",
+      "title": "Scope vs lifetime",
+      "slug": "4-1-scope-vs-lifetime",
+      "body": "**Scope** is where a name can be used.\n\n**Lifetime** is when the object exists.\n\n```cpp\nvoid f() {\n    int x = 5; // x is in scope from here to end of block\n} // x lifetime ends here\n```\n\nUsually local variable scope and lifetime align, but not always.",
+      "tags": [],
+      "difficulty": "novice"
+    },
+    {
+      "id": "c4-2",
+      "moduleId": "m4",
+      "moduleTitle": "Storage duration, scope, and lifetime",
+      "moduleNumber": 4,
+      "number": "4.2",
+      "title": "Automatic storage duration",
+      "slug": "4-2-automatic-storage-duration",
+      "body": "Local variables usually have automatic storage duration.\n\n```cpp\nvoid f() {\n    int x = 5;\n    std::string s = \"hello\";\n} // x and s destroyed here\n```\n\nThis is often called “stack allocation,” though the standard does not require a hardware stack.",
+      "tags": [],
+      "difficulty": "novice"
+    },
+    {
+      "id": "c4-3",
+      "moduleId": "m4",
+      "moduleTitle": "Storage duration, scope, and lifetime",
+      "moduleNumber": 4,
+      "number": "4.3",
+      "title": "Dynamic storage duration",
+      "slug": "4-3-dynamic-storage-duration",
+      "body": "Objects created dynamically live until explicitly destroyed or until an owner destroys them.\n\nBad old style:\n\n```cpp\nint* p = new int(5);\ndelete p;\n```\n\nModern style:\n\n```cpp\nauto p = std::make_unique<int>(5);\n```\n\nThe `unique_ptr` automatically deletes the object.",
+      "tags": [],
+      "difficulty": "novice"
+    },
+    {
+      "id": "c4-4",
+      "moduleId": "m4",
+      "moduleTitle": "Storage duration, scope, and lifetime",
+      "moduleNumber": 4,
+      "number": "4.4",
+      "title": "Static storage duration",
+      "slug": "4-4-static-storage-duration",
+      "body": "Global and static variables live for the entire program.\n\n```cpp\nint global_value = 10;\n\nvoid f() {\n    static int count = 0;\n    ++count;\n}\n```\n\n`count` is initialized once and retains its value across calls.\n\nBe careful with global state in tests and multi-threaded programs.",
+      "tags": [],
+      "difficulty": "novice"
+    },
+    {
+      "id": "c4-5",
+      "moduleId": "m4",
+      "moduleTitle": "Storage duration, scope, and lifetime",
+      "moduleNumber": 4,
+      "number": "4.5",
+      "title": "Dangling references and pointers",
+      "slug": "4-5-dangling-references-and-pointers",
+      "body": "A pointer/reference dangles when it refers to an object whose lifetime has ended.\n\nBad:\n\n```cpp\nint& bad_ref() {\n    int x = 5;\n    return x; // dangling reference\n}\n```\n\nBad:\n\n```cpp\nint* bad_ptr() {\n    int x = 5;\n    return &x; // dangling pointer\n}\n```\n\nGood:\n\n```cpp\nint good_value() {\n    int x = 5;\n    return x; // returns a copy\n}\n```\n\nGood:\n\n```cpp\nstd::unique_ptr<int> good_ptr() {\n    return std::make_unique<int>(5);\n}\n```",
+      "tags": [
+        "pointers",
+        "references"
+      ],
+      "difficulty": "novice"
+    },
+    {
+      "id": "c4-6",
+      "moduleId": "m4",
+      "moduleTitle": "Storage duration, scope, and lifetime",
+      "moduleNumber": 4,
+      "number": "4.6",
+      "title": "Lifetime of temporaries",
+      "slug": "4-6-lifetime-of-temporaries",
+      "body": "Temporary objects usually live until the end of the full expression.\n\n```cpp\nconst std::string& s = std::string(\"hello\");\n```\n\nThis is okay because binding a temporary to a const reference extends its lifetime to match the reference lifetime.\n\nBut this is dangerous:\n\n```cpp\nstd::string_view sv = std::string(\"hello\"); // dangling after this statement\n```\n\n`string_view` is not a reference in the lifetime-extension sense. It does not own data and does not extend lifetime.",
+      "tags": [],
+      "difficulty": "novice"
+    },
+    {
+      "id": "c4-7",
+      "moduleId": "m4",
+      "moduleTitle": "Storage duration, scope, and lifetime",
+      "moduleNumber": 4,
+      "number": "4.7",
+      "title": "Interview questions",
+      "slug": "4-7-interview-questions",
+      "body": "### Q: What is object lifetime?\n\nAnswer:\n\n> Object lifetime is the period during which an object exists and can be safely used. It begins after construction and ends when the destructor starts or storage is released. Using pointers or references after lifetime ends causes dangling references/pointers and usually undefined behavior.\n\n### Follow-up: What is a dangling reference?\n\nAnswer:\n\n> A dangling reference refers to an object that no longer exists. For example, returning a reference to a local variable creates a dangling reference because the local variable is destroyed when the function returns.\n\n### Follow-up: Why is returning `std::vector<int>` by value okay?\n\nAnswer:\n\n> Modern C++ efficiently returns objects by value using copy elision or move semantics. The returned object owns its resources, so there is no dangling reference.\n\n---",
+      "tags": [],
+      "difficulty": "novice"
+    },
+    {
+      "id": "c5-1",
+      "moduleId": "m5",
+      "moduleTitle": "Undefined behavior",
+      "moduleNumber": 5,
+      "number": "5.1",
+      "title": "What undefined behavior means",
+      "slug": "5-1-what-undefined-behavior-means",
+      "body": "Undefined behavior means the C++ standard gives no meaning to the program. The compiler can assume it never happens.\n\nThis is very different from an exception.\n\nException:\n\n```cpp\nthrow std::runtime_error(\"error\");\n```\n\nDefined behavior: stack unwinds.\n\nUndefined behavior:\n\n```cpp\nint* p = nullptr;\n*p = 5;\n```\n\nNo guarantees.",
+      "tags": [
+        "undefined-behavior"
+      ],
+      "difficulty": "novice"
+    },
+    {
+      "id": "c5-2",
+      "moduleId": "m5",
+      "moduleTitle": "Undefined behavior",
+      "moduleNumber": 5,
+      "number": "5.2",
+      "title": "Common sources of UB",
+      "slug": "5-2-common-sources-of-ub",
+      "body": "### Null dereference\n\n```cpp\nint* p = nullptr;\nstd::cout << *p;\n```\n\n### Out-of-bounds access\n\n```cpp\nint a[3] = {1, 2, 3};\nstd::cout << a[10];\n```\n\n### Dangling reference\n\n```cpp\nconst std::string& bad() {\n    std::string s = \"abc\";\n    return s;\n}\n```\n\n### Use after free\n\n```cpp\nint* p = new int(5);\ndelete p;\nstd::cout << *p;\n```\n\n### Data race\n\n```cpp\nint x = 0;\n// two threads both do ++x without synchronization\n```\n\n### Signed integer overflow\n\n```cpp\nint x = std::numeric_limits<int>::max();\n++x;\n```",
+      "tags": [
+        "undefined-behavior"
+      ],
+      "difficulty": "novice"
+    },
+    {
+      "id": "c5-3",
+      "moduleId": "m5",
+      "moduleTitle": "Undefined behavior",
+      "moduleNumber": 5,
+      "number": "5.3",
+      "title": "Why UB is dangerous in optimized builds",
+      "slug": "5-3-why-ub-is-dangerous-in-optimized-builds",
+      "body": "The compiler optimizes under the assumption that undefined behavior does not occur. Therefore, UB can cause surprising behavior far away from the bug.\n\nExample:\n\n```cpp\nint f(int* p) {\n    int x = *p;\n    if (p == nullptr) return 0;\n    return x;\n}\n```\n\nThe compiler may remove the null check because dereferencing `p` already assumes `p` is non-null.",
+      "tags": [
+        "undefined-behavior"
+      ],
+      "difficulty": "novice"
+    },
+    {
+      "id": "c5-4",
+      "moduleId": "m5",
+      "moduleTitle": "Undefined behavior",
+      "moduleNumber": 5,
+      "number": "5.4",
+      "title": "Interview questions",
+      "slug": "5-4-interview-questions",
+      "body": "### Q: What is undefined behavior?\n\nAnswer:\n\n> Undefined behavior means the C++ standard imposes no requirements on what happens. The program might crash, appear to work, or be optimized incorrectly. Common causes are out-of-bounds access, dangling references, null dereference, signed overflow, and data races.\n\n### Follow-up: Is UB always caught by the compiler or runtime?\n\nAnswer:\n\n> No. UB often compiles and may appear to work. Tools like sanitizers help detect many UB cases, but not all.\n\n### Follow-up: How do you prevent UB?\n\nAnswer:\n\n> Use RAII, standard containers, bounds-checked access when appropriate, smart pointers for ownership, clear lifetime rules, compiler warnings, sanitizers, and careful synchronization in multi-threaded code.\n\n---",
+      "tags": [
+        "undefined-behavior"
+      ],
+      "difficulty": "novice"
+    },
+    {
+      "id": "c6-1",
+      "moduleId": "m6",
+      "moduleTitle": "RAII and resource management",
+      "moduleNumber": 6,
+      "number": "6.1",
+      "title": "Why RAII exists",
+      "slug": "6-1-why-raii-exists",
+      "body": "C++ does not have garbage collection by default. Instead, it has deterministic destruction.\n\nRAII uses deterministic destruction to manage resources automatically.\n\nRAII means:\n\n- Acquire resource in constructor.\n- Release resource in destructor.\n- Let scope control cleanup.",
+      "tags": [
+        "raii"
+      ],
+      "difficulty": "novice"
+    },
+    {
+      "id": "c6-2",
+      "moduleId": "m6",
+      "moduleTitle": "RAII and resource management",
+      "moduleNumber": 6,
+      "number": "6.2",
+      "title": "Simple RAII example",
+      "slug": "6-2-simple-raii-example",
+      "body": "```cpp\nclass Trace {\npublic:\n    Trace() {\n        std::cout << \"start\\n\";\n    }\n\n    ~Trace() {\n        std::cout << \"end\\n\";\n    }\n};\n\nvoid f() {\n    Trace t;\n    std::cout << \"inside\\n\";\n}\n```\n\nOutput:\n\n```text\nstart\ninside\nend\n```\n\nThe destructor runs automatically.",
+      "tags": [
+        "raii"
+      ],
+      "difficulty": "novice"
+    },
+    {
+      "id": "c6-3",
+      "moduleId": "m6",
+      "moduleTitle": "RAII and resource management",
+      "moduleNumber": 6,
+      "number": "6.3",
+      "title": "RAII with memory",
+      "slug": "6-3-raii-with-memory",
+      "body": "Instead of:\n\n```cpp\nvoid bad() {\n    int* p = new int(5);\n    if (some_condition()) return; // leak\n    delete p;\n}\n```\n\nUse:\n\n```cpp\nvoid good() {\n    auto p = std::make_unique<int>(5);\n    if (some_condition()) return; // no leak\n}\n```\n\n`unique_ptr` destructor deletes the integer.",
+      "tags": [
+        "raii",
+        "memory"
+      ],
+      "difficulty": "novice"
+    },
+    {
+      "id": "c6-4",
+      "moduleId": "m6",
+      "moduleTitle": "RAII and resource management",
+      "moduleNumber": 6,
+      "number": "6.4",
+      "title": "RAII with locks",
+      "slug": "6-4-raii-with-locks",
+      "body": "Without RAII:\n\n```cpp\nm.lock();\ndo_work();\nm.unlock();\n```\n\nIf `do_work()` throws, `unlock()` is skipped.\n\nWith RAII:\n\n```cpp\nstd::lock_guard<std::mutex> lock(m);\ndo_work();\n```\n\nThe lock is released automatically.",
+      "tags": [
+        "raii"
+      ],
+      "difficulty": "novice"
+    },
+    {
+      "id": "c6-5",
+      "moduleId": "m6",
+      "moduleTitle": "RAII and resource management",
+      "moduleNumber": 6,
+      "number": "6.5",
+      "title": "RAII with files",
+      "slug": "6-5-raii-with-files",
+      "body": "Use standard library file streams:\n\n```cpp\nstd::ifstream file(\"data.csv\");\nif (!file) {\n    throw std::runtime_error(\"failed to open file\");\n}\n```\n\nWhen `file` goes out of scope, it closes automatically.",
+      "tags": [
+        "raii"
+      ],
+      "difficulty": "novice"
+    },
+    {
+      "id": "c6-6",
+      "moduleId": "m6",
+      "moduleTitle": "RAII and resource management",
+      "moduleNumber": 6,
+      "number": "6.6",
+      "title": "Rule of Zero",
+      "slug": "6-6-rule-of-zero",
+      "body": "If your class uses RAII members, you usually do not need custom destructor/copy/move logic.\n\n```cpp\nclass Portfolio {\npublic:\n    void add(std::string symbol, double qty) {\n        symbols_.push_back(std::move(symbol));\n        quantities_.push_back(qty);\n    }\n\nprivate:\n    std::vector<std::string> symbols_;\n    std::vector<double> quantities_;\n};\n```\n\nNo destructor needed. `vector` and `string` clean themselves.",
+      "tags": [
+        "raii"
+      ],
+      "difficulty": "novice"
+    },
+    {
+      "id": "c6-7",
+      "moduleId": "m6",
+      "moduleTitle": "RAII and resource management",
+      "moduleNumber": 6,
+      "number": "6.7",
+      "title": "Rule of Five",
+      "slug": "6-7-rule-of-five",
+      "body": "If your class directly owns a raw resource, you must think about all five special member functions.\n\n```cpp\nclass RawBuffer {\npublic:\n    explicit RawBuffer(std::size_t n)\n        : n_(n), data_(new double[n]) {}\n\n    ~RawBuffer() {\n        delete[] data_;\n    }\n\nprivate:\n    std::size_t n_;\n    double* data_;\n};\n```\n\nThis class is broken if copied:\n\n```cpp\nRawBuffer a(10);\nRawBuffer b = a; // default copy copies pointer only\n```\n\nNow both objects point to the same memory. Both destructors call `delete[]` on the same pointer. Double delete.\n\nFix options:\n\n1. Delete copying.\n2. Implement deep copy.\n3. Prefer `std::vector<double>` and follow Rule of Zero.",
+      "tags": [
+        "raii"
+      ],
+      "difficulty": "novice"
+    },
+    {
+      "id": "c6-8",
+      "moduleId": "m6",
+      "moduleTitle": "RAII and resource management",
+      "moduleNumber": 6,
+      "number": "6.8",
+      "title": "Interview questions",
+      "slug": "6-8-interview-questions",
+      "body": "### Q: What is RAII?\n\nAnswer:\n\n> RAII is a C++ idiom where resource management is tied to object lifetime. A constructor acquires a resource and the destructor releases it. This gives automatic cleanup during normal scope exit and exception unwinding.\n\n### Follow-up: Give examples.\n\nAnswer:\n\n> `std::vector` manages heap memory, `std::unique_ptr` manages dynamically allocated objects, `std::lock_guard` manages a mutex lock, and `std::ifstream` manages a file handle.\n\n### Follow-up: What problem does RAII solve?\n\nAnswer:\n\n> It prevents leaks and inconsistent cleanup paths. Without RAII, every return path and exception path must manually release resources. With RAII, destruction handles cleanup automatically.\n\n### Q: What is the Rule of Zero?\n\nAnswer:\n\n> The Rule of Zero says that most classes should avoid manually defining destructors, copy constructors, move constructors, and assignment operators. Instead, they should store RAII members like `vector`, `string`, and smart pointers that manage their own resources.\n\n### Q: What is the Rule of Five?\n\nAnswer:\n\n> If a class directly manages a resource and needs one special member function, it likely needs destructor, copy constructor, copy assignment, move constructor, and move assignment. This is because copying, moving, and destroying all affect resource ownership.\n\n---",
+      "tags": [
+        "raii"
+      ],
+      "difficulty": "novice"
+    },
+    {
+      "id": "c7-1",
+      "moduleId": "m7",
+      "moduleTitle": "Pointers, references, and ownership",
+      "moduleNumber": 7,
+      "number": "7.1",
+      "title": "Why this matters",
+      "slug": "7-1-why-this-matters",
+      "body": "Most serious C++ bugs involve bad ownership or invalid lifetime:\n\n- Use-after-free\n- Double delete\n- Dangling pointer\n- Dangling reference\n- Memory leak\n- Null dereference\n\nYou need to distinguish:\n\n- Accessing an object\n- Owning an object\n- Sharing ownership\n- Observing without ownership",
+      "tags": [
+        "pointers",
+        "references"
+      ],
+      "difficulty": "novice"
+    },
+    {
+      "id": "c7-2",
+      "moduleId": "m7",
+      "moduleTitle": "Pointers, references, and ownership",
+      "moduleNumber": 7,
+      "number": "7.2",
+      "title": "References",
+      "slug": "7-2-references",
+      "body": "A reference is an alias.\n\n```cpp\nint x = 10;\nint& r = x;\nr = 20;\nstd::cout << x; // 20\n```\n\n`r` is another name for `x`.\n\nImportant properties:\n\n- Must be initialized.\n- Cannot be reseated.\n- Usually cannot be null in valid code.\n- Does not own the object.\n\nFunction example:\n\n```cpp\nvoid apply_fee(double& price) {\n    price *= 1.001;\n}\n```\n\nThis modifies the caller's variable.",
+      "tags": [
+        "pointers",
+        "references"
+      ],
+      "difficulty": "novice"
+    },
+    {
+      "id": "c7-3",
+      "moduleId": "m7",
+      "moduleTitle": "Pointers, references, and ownership",
+      "moduleNumber": 7,
+      "number": "7.3",
+      "title": "Const references",
+      "slug": "7-3-const-references",
+      "body": "Use `const&` for read-only access to larger objects.\n\n```cpp\nvoid print_symbol(const std::string& symbol) {\n    std::cout << symbol << '\\n';\n}\n```\n\nThis avoids copying the string while preventing mutation.\n\nFor small types, pass by value:\n\n```cpp\nvoid set_price(double price); // good\n```\n\nDo not write:\n\n```cpp\nvoid set_price(const double& price); // usually unnecessary\n```\n\nA `double` is cheap to copy.",
+      "tags": [
+        "const",
+        "pointers",
+        "references"
+      ],
+      "difficulty": "novice"
+    },
+    {
+      "id": "c7-4",
+      "moduleId": "m7",
+      "moduleTitle": "Pointers, references, and ownership",
+      "moduleNumber": 7,
+      "number": "7.4",
+      "title": "Pointers",
+      "slug": "7-4-pointers",
+      "body": "A pointer stores an address.\n\n```cpp\nint x = 10;\nint* p = &x;\n*p = 20;\n```\n\nProperties:\n\n- Can be null.\n- Can be reassigned.\n- Can support pointer arithmetic.\n- Does not necessarily own memory.\n\nFunction example:\n\n```cpp\nvoid maybe_update(Order* order) {\n    if (order) {\n        order->quantity += 10;\n    }\n}\n```\n\nThe pointer expresses optionality.",
+      "tags": [
+        "pointers",
+        "references"
+      ],
+      "difficulty": "novice"
+    },
+    {
+      "id": "c7-5",
+      "moduleId": "m7",
+      "moduleTitle": "Pointers, references, and ownership",
+      "moduleNumber": 7,
+      "number": "7.5",
+      "title": "Dot vs arrow",
+      "slug": "7-5-dot-vs-arrow",
+      "body": "Object or reference:\n\n```cpp\norder.quantity = 100;\n```\n\nPointer:\n\n```cpp\norder_ptr->quantity = 100;\n```\n\n`p->x` is shorthand for `(*p).x`.",
+      "tags": [
+        "pointers",
+        "references"
+      ],
+      "difficulty": "novice"
+    },
+    {
+      "id": "c7-6",
+      "moduleId": "m7",
+      "moduleTitle": "Pointers, references, and ownership",
+      "moduleNumber": 7,
+      "number": "7.6",
+      "title": "Ownership categories",
+      "slug": "7-6-ownership-categories",
+      "body": "### Value ownership\n\n```cpp\nstd::vector<Order> orders;\n```\n\nThe vector owns the `Order` objects directly.\n\n### Exclusive heap ownership\n\n```cpp\nstd::unique_ptr<Model> model;\n```\n\nExactly one owner.\n\n### Shared ownership\n\n```cpp\nstd::shared_ptr<Model> model;\n```\n\nMultiple owners; object dies when last owner dies.\n\n### Non-owning observation\n\n```cpp\nModel* model;      // optional observer\nModel& model_ref;  // required observer\n```",
+      "tags": [
+        "pointers",
+        "references"
+      ],
+      "difficulty": "novice"
+    },
+    {
+      "id": "c7-7",
+      "moduleId": "m7",
+      "moduleTitle": "Pointers, references, and ownership",
+      "moduleNumber": 7,
+      "number": "7.7",
+      "title": "`unique_ptr`",
+      "slug": "7-7-unique-ptr",
+      "body": "Use `unique_ptr` for exclusive ownership of heap objects.\n\n```cpp\nauto model = std::make_unique<Model>();\n```\n\nTransfer ownership:\n\n```cpp\nvoid set_model(std::unique_ptr<Model> model) {\n    model_ = std::move(model);\n}\n```\n\nCalling:\n\n```cpp\nauto m = std::make_unique<Model>();\nstrategy.set_model(std::move(m));\n```\n\nAfter `std::move(m)`, `m` no longer owns the object.",
+      "tags": [
+        "pointers",
+        "references",
+        "smart-pointers"
+      ],
+      "difficulty": "novice"
+    },
+    {
+      "id": "c7-8",
+      "moduleId": "m7",
+      "moduleTitle": "Pointers, references, and ownership",
+      "moduleNumber": 7,
+      "number": "7.8",
+      "title": "`shared_ptr`",
+      "slug": "7-8-shared-ptr",
+      "body": "Use only when shared lifetime ownership is truly needed.\n\n```cpp\nauto model = std::make_shared<Model>();\nstd::shared_ptr<Model> another = model;\n```\n\nReference count is now 2.\n\nCosts:\n\n- Control block allocation\n- Reference count increments/decrements\n- Atomic operations in many implementations\n- Possible cycles\n- Less clear ownership",
+      "tags": [
+        "pointers",
+        "references",
+        "smart-pointers"
+      ],
+      "difficulty": "novice"
+    },
+    {
+      "id": "c7-9",
+      "moduleId": "m7",
+      "moduleTitle": "Pointers, references, and ownership",
+      "moduleNumber": 7,
+      "number": "7.9",
+      "title": "`weak_ptr`",
+      "slug": "7-9-weak-ptr",
+      "body": "Use `weak_ptr` to observe a `shared_ptr` object without extending lifetime.\n\n```cpp\nstd::weak_ptr<Model> weak = model;\n\nif (auto locked = weak.lock()) {\n    locked->run();\n}\n```\n\n`lock()` returns a `shared_ptr` if the object still exists.",
+      "tags": [
+        "pointers",
+        "references",
+        "smart-pointers"
+      ],
+      "difficulty": "novice"
+    },
+    {
+      "id": "c7-10",
+      "moduleId": "m7",
+      "moduleTitle": "Pointers, references, and ownership",
+      "moduleNumber": 7,
+      "number": "7.10",
+      "title": "Why `vector<T&>` is invalid",
+      "slug": "7-10-why-vector-t-is-invalid",
+      "body": "This is common in interviews.\n\n```cpp\nstd::vector<int&> refs; // invalid\n```\n\nWhy?\n\nA reference is not a regular object. Containers need elements that can be assigned, moved, destroyed, and stored. A reference cannot be reseated.\n\nAlternatives:\n\n```cpp\nstd::vector<int*> ptrs;\nstd::vector<std::reference_wrapper<int>> refs;\nstd::vector<std::unique_ptr<int>> owned;\nstd::vector<int> values;\n```\n\nEach has different semantics.",
+      "tags": [
+        "pointers",
+        "references",
+        "stl"
+      ],
+      "difficulty": "novice"
+    },
+    {
+      "id": "c7-11",
+      "moduleId": "m7",
+      "moduleTitle": "Pointers, references, and ownership",
+      "moduleNumber": 7,
+      "number": "7.11",
+      "title": "Interview questions",
+      "slug": "7-11-interview-questions",
+      "body": "### Q: Pointer vs reference?\n\nAnswer:\n\n> A reference is an alias for an existing object. It must be initialized and cannot be reseated. A pointer stores an address, can be null, and can be reassigned. I use references for required objects and pointers when nullability or reseating is meaningful.\n\n### Follow-up: Can a reference be null?\n\nAnswer:\n\n> In valid C++, a reference should refer to a real object. You can create invalid situations by dereferencing a null pointer and binding to a reference, but that is undefined behavior. Semantically, references should be treated as non-null.\n\n### Q: When should primitives be passed by reference?\n\nAnswer:\n\n> Usually only when the function needs to modify the caller's variable. For read-only use, small primitives like `int`, `double`, and pointers should usually be passed by value because copying them is cheap and clearer.\n\n### Q: When use `unique_ptr` vs `shared_ptr`?\n\nAnswer:\n\n> Use `unique_ptr` for exclusive ownership. It is simple and cheap. Use `shared_ptr` only when multiple independent owners must share lifetime. If one object only observes another, use raw pointer, reference, or `weak_ptr` depending on ownership context.\n\n### Q: Why is raw `new` discouraged?\n\nAnswer:\n\n> Raw `new` creates manual ownership. If an exception or early return happens, memory may leak. Smart pointers and containers express ownership and clean up automatically.\n\n### Q: Is a raw pointer always bad?\n\nAnswer:\n\n> No. Raw pointers are fine for non-owning observation, especially when null is meaningful. What is dangerous is raw owning pointers without clear lifetime management.\n\n---",
+      "tags": [
+        "pointers",
+        "references"
+      ],
+      "difficulty": "novice"
+    },
+    {
+      "id": "c8-1",
+      "moduleId": "m8",
+      "moduleTitle": "`const`, immutability, and API clarity",
+      "moduleNumber": 8,
+      "number": "8.1",
+      "title": "Why `const` matters",
+      "slug": "8-1-why-const-matters",
+      "body": "`const` is not just compiler decoration. It communicates intent.\n\n```cpp\nvoid print_order(const Order& order);\n```\n\nThis says the function will not modify the order.\n\nBenefits:\n\n- Documents API behavior.\n- Prevents accidental mutation.\n- Allows passing const objects.\n- Helps reasoning in large systems.",
+      "tags": [
+        "const"
+      ],
+      "difficulty": "novice"
+    },
+    {
+      "id": "c8-2",
+      "moduleId": "m8",
+      "moduleTitle": "`const`, immutability, and API clarity",
+      "moduleNumber": 8,
+      "number": "8.2",
+      "title": "Const variables",
+      "slug": "8-2-const-variables",
+      "body": "```cpp\nconst double risk_limit = 1'000'000.0;\n```\n\nCannot modify after initialization.",
+      "tags": [
+        "const"
+      ],
+      "difficulty": "novice"
+    },
+    {
+      "id": "c8-3",
+      "moduleId": "m8",
+      "moduleTitle": "`const`, immutability, and API clarity",
+      "moduleNumber": 8,
+      "number": "8.3",
+      "title": "Pointer const combinations",
+      "slug": "8-3-pointer-const-combinations",
+      "body": "```cpp\nconst int* p;       // pointer to const int\nint* const q = &x;  // const pointer to int\nconst int* const r; // const pointer to const int\n```\n\nMental model:\n\n- `const int* p`: cannot modify `*p`; can change `p`.\n- `int* const p`: can modify `*p`; cannot change `p`.\n- `const int* const p`: can modify neither through this name.",
+      "tags": [
+        "const",
+        "pointers"
+      ],
+      "difficulty": "novice"
+    },
+    {
+      "id": "c8-4",
+      "moduleId": "m8",
+      "moduleTitle": "`const`, immutability, and API clarity",
+      "moduleNumber": 8,
+      "number": "8.4",
+      "title": "Const member functions",
+      "slug": "8-4-const-member-functions",
+      "body": "```cpp\nclass OrderBook {\npublic:\n    double mid() const {\n        return 0.5 * (best_bid_ + best_ask_);\n    }\n\n    void update(double bid, double ask) {\n        best_bid_ = bid;\n        best_ask_ = ask;\n    }\n\nprivate:\n    double best_bid_ = 0.0;\n    double best_ask_ = 0.0;\n};\n```\n\n`mid()` can be called on a const `OrderBook`.\n\n```cpp\nconst OrderBook book;\nbook.mid();    // allowed\n// book.update(); // not allowed\n```",
+      "tags": [
+        "const"
+      ],
+      "difficulty": "novice"
+    },
+    {
+      "id": "c8-5",
+      "moduleId": "m8",
+      "moduleTitle": "`const`, immutability, and API clarity",
+      "moduleNumber": 8,
+      "number": "8.5",
+      "title": "Logical vs physical constness",
+      "slug": "8-5-logical-vs-physical-constness",
+      "body": "A const member function promises not to modify logical state.\n\nSometimes internal caches are allowed to change:\n\n```cpp\nclass Model {\npublic:\n    double value() const {\n        if (!cached_) {\n            cached_value_ = expensive_compute();\n            cached_ = true;\n        }\n        return cached_value_;\n    }\n\nprivate:\n    double expensive_compute() const { return 42.0; }\n\n    mutable bool cached_ = false;\n    mutable double cached_value_ = 0.0;\n};\n```\n\n`mutable` allows modification inside const functions. Use sparingly.",
+      "tags": [
+        "const"
+      ],
+      "difficulty": "novice"
+    },
+    {
+      "id": "c8-6",
+      "moduleId": "m8",
+      "moduleTitle": "`const`, immutability, and API clarity",
+      "moduleNumber": 8,
+      "number": "8.6",
+      "title": "`constexpr`",
+      "slug": "8-6-constexpr",
+      "body": "`constexpr` means something can be evaluated at compile time when possible.\n\n```cpp\nconstexpr double square(double x) {\n    return x * x;\n}\n\nconstexpr double y = square(3.0);\n```\n\nUse for:\n\n- Compile-time constants\n- Small pure functions\n- Fixed configuration",
+      "tags": [
+        "const"
+      ],
+      "difficulty": "novice"
+    },
+    {
+      "id": "c8-7",
+      "moduleId": "m8",
+      "moduleTitle": "`const`, immutability, and API clarity",
+      "moduleNumber": 8,
+      "number": "8.7",
+      "title": "Interview questions",
+      "slug": "8-7-interview-questions",
+      "body": "### Q: What is const-correctness?\n\nAnswer:\n\n> Const-correctness means marking objects, function parameters, and member functions as `const` when they should not modify logical state. It improves clarity and allows the compiler to catch accidental mutation.\n\n### Follow-up: What is a const member function?\n\nAnswer:\n\n> A const member function promises not to modify the object's logical state. It can be called on const objects. Inside such a function, `this` behaves like a pointer to const.\n\n### Q: What is `mutable`?\n\nAnswer:\n\n> `mutable` allows a member to be modified even inside a const member function. It is usually used for caches, mutexes, or instrumentation that does not change logical state.\n\n### Q: `const int*` vs `int* const`?\n\nAnswer:\n\n> `const int*` is a pointer to const int; you cannot modify the int through the pointer, but you can point elsewhere. `int* const` is a const pointer to int; you can modify the int, but cannot change the pointer itself.\n\n---",
+      "tags": [
+        "const"
+      ],
+      "difficulty": "novice"
+    },
+    {
+      "id": "c9-1",
+      "moduleId": "m9",
+      "moduleTitle": "Classes, constructors, destructors, and encapsulation",
+      "moduleNumber": 9,
+      "number": "9.1",
+      "title": "What a class is",
+      "slug": "9-1-what-a-class-is",
+      "body": "A class groups data and functions.\n\n```cpp\nclass Order {\npublic:\n    Order(int id, double qty, double price)\n        : id_(id), quantity_(qty), price_(price) {}\n\n    double notional() const {\n        return quantity_ * price_;\n    }\n\nprivate:\n    int id_;\n    double quantity_;\n    double price_;\n};\n```\n\n`public` members are part of the interface. `private` members are implementation details.",
+      "tags": [
+        "const"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c9-2",
+      "moduleId": "m9",
+      "moduleTitle": "Classes, constructors, destructors, and encapsulation",
+      "moduleNumber": 9,
+      "number": "9.2",
+      "title": "Encapsulation",
+      "slug": "9-2-encapsulation",
+      "body": "Encapsulation means hiding internal representation and exposing safe operations.\n\nBad:\n\n```cpp\nstruct Position {\n    double quantity;\n    double avg_price;\n};\n```\n\nThis may be fine for simple data, but there are no invariants.\n\nBetter if invariants matter:\n\n```cpp\nclass Position {\npublic:\n    void add_fill(double qty, double price) {\n        // update quantity and average price consistently\n    }\n\n    double quantity() const { return quantity_; }\n    double avg_price() const { return avg_price_; }\n\nprivate:\n    double quantity_ = 0.0;\n    double avg_price_ = 0.0;\n};\n```\n\nNow you control updates.",
+      "tags": [
+        "const"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c9-3",
+      "moduleId": "m9",
+      "moduleTitle": "Classes, constructors, destructors, and encapsulation",
+      "moduleNumber": 9,
+      "number": "9.3",
+      "title": "Constructor initialization lists",
+      "slug": "9-3-constructor-initialization-lists",
+      "body": "Prefer:\n\n```cpp\nclass Order {\npublic:\n    Order(int id, std::string symbol)\n        : id_(id), symbol_(std::move(symbol)) {}\n\nprivate:\n    int id_;\n    std::string symbol_;\n};\n```\n\nInstead of:\n\n```cpp\nOrder(int id, std::string symbol) {\n    id_ = id;\n    symbol_ = std::move(symbol);\n}\n```\n\nWhy?\n\nThe initialization list constructs members directly. Assignment in the body may default-construct first, then assign.",
+      "tags": [
+        "const"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c9-4",
+      "moduleId": "m9",
+      "moduleTitle": "Classes, constructors, destructors, and encapsulation",
+      "moduleNumber": 9,
+      "number": "9.4",
+      "title": "Initialization order",
+      "slug": "9-4-initialization-order",
+      "body": "Members initialize in declaration order.\n\n```cpp\nclass Example {\npublic:\n    Example() : y_(x_), x_(10) {}\n\nprivate:\n    int x_;\n    int y_;\n};\n```\n\nDespite list order, `x_` initializes before `y_` because `x_` is declared first.\n\nKeep initialization list order the same as declaration order.",
+      "tags": [
+        "const",
+        "quant"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c9-5",
+      "moduleId": "m9",
+      "moduleTitle": "Classes, constructors, destructors, and encapsulation",
+      "moduleNumber": 9,
+      "number": "9.5",
+      "title": "`explicit` constructors",
+      "slug": "9-5-explicit-constructors",
+      "body": "Single-argument constructors can create implicit conversions.\n\n```cpp\nclass Price {\npublic:\n    Price(double value) : value_(value) {}\nprivate:\n    double value_;\n};\n\nvoid trade(Price p);\ntrade(100.0); // allowed\n```\n\nThis may be surprising. Prefer:\n\n```cpp\nclass Price {\npublic:\n    explicit Price(double value) : value_(value) {}\nprivate:\n    double value_;\n};\n```\n\nNow:\n\n```cpp\ntrade(Price{100.0});\n```",
+      "tags": [
+        "const"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c9-6",
+      "moduleId": "m9",
+      "moduleTitle": "Classes, constructors, destructors, and encapsulation",
+      "moduleNumber": 9,
+      "number": "9.6",
+      "title": "Destructors",
+      "slug": "9-6-destructors",
+      "body": "A destructor runs when an object dies.\n\n```cpp\nclass Connection {\npublic:\n    ~Connection() {\n        close();\n    }\n};\n```\n\nDestructors should generally not throw.",
+      "tags": [
+        "const"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c9-7",
+      "moduleId": "m9",
+      "moduleTitle": "Classes, constructors, destructors, and encapsulation",
+      "moduleNumber": 9,
+      "number": "9.7",
+      "title": "Struct vs class",
+      "slug": "9-7-struct-vs-class",
+      "body": "In C++:\n\n```cpp\nstruct S {\n    int x;\n};\n```\n\nMembers are public by default.\n\n```cpp\nclass C {\n    int x;\n};\n```\n\nMembers are private by default.\n\nUse `struct` for simple passive data. Use `class` when you need invariants and encapsulation.",
+      "tags": [
+        "const"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c9-8",
+      "moduleId": "m9",
+      "moduleTitle": "Classes, constructors, destructors, and encapsulation",
+      "moduleNumber": 9,
+      "number": "9.8",
+      "title": "Interview questions",
+      "slug": "9-8-interview-questions",
+      "body": "### Q: Why use initialization lists?\n\nAnswer:\n\n> Initialization lists construct members directly. Assignment in the constructor body may first default-construct members and then assign. Initialization lists are required for references, const members, and members without default constructors.\n\n### Q: What is `explicit`?\n\nAnswer:\n\n> `explicit` prevents implicit conversions through constructors. It is especially useful for domain types like `Price`, `Quantity`, or `Volatility`, where accidental conversion from a raw number could hide bugs.\n\n### Q: Struct vs class?\n\nAnswer:\n\n> The main language difference is default access: struct members are public, class members are private. By convention, structs are often used for simple data aggregates, while classes are used when invariants and encapsulation matter.\n\n---",
+      "tags": [
+        "const"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c10-1",
+      "moduleId": "m10",
+      "moduleTitle": "Copying, moving, and value categories",
+      "moduleNumber": 10,
+      "number": "10.1",
+      "title": "Why move semantics exist",
+      "slug": "10-1-why-move-semantics-exist",
+      "body": "Some objects own expensive resources.\n\nExample:\n\n```cpp\nstd::vector<int> v(1'000'000);\n```\n\nCopying this vector means allocating new memory and copying one million integers.\n\nMoving can simply transfer the internal pointer from one vector to another.",
+      "tags": [
+        "move-semantics"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c10-2",
+      "moduleId": "m10",
+      "moduleTitle": "Copying, moving, and value categories",
+      "moduleNumber": 10,
+      "number": "10.2",
+      "title": "Copying",
+      "slug": "10-2-copying",
+      "body": "```cpp\nstd::vector<int> a = {1, 2, 3};\nstd::vector<int> b = a;\n```\n\nAfter copy:\n\n- `a` owns its own buffer.\n- `b` owns a separate buffer.\n- Mutating one does not affect the other.",
+      "tags": [],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c10-3",
+      "moduleId": "m10",
+      "moduleTitle": "Copying, moving, and value categories",
+      "moduleNumber": 10,
+      "number": "10.3",
+      "title": "Moving",
+      "slug": "10-3-moving",
+      "body": "```cpp\nstd::vector<int> a = {1, 2, 3};\nstd::vector<int> b = std::move(a);\n```\n\nAfter move:\n\n- `b` owns the original buffer.\n- `a` is valid but unspecified.\n- You can destroy `a` or assign to it.\n\nDo not rely on `a` being empty unless documented.",
+      "tags": [],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c10-4",
+      "moduleId": "m10",
+      "moduleTitle": "Copying, moving, and value categories",
+      "moduleNumber": 10,
+      "number": "10.4",
+      "title": "`std::move`",
+      "slug": "10-4-std-move",
+      "body": "`std::move` does not move. It casts.\n\n```cpp\nstd::move(a)\n```\n\nmeans:\n\n> Treat `a` as an expiring object so move operations may be used.\n\nThe actual movement happens in the move constructor or move assignment operator.",
+      "tags": [
+        "move-semantics"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c10-5",
+      "moduleId": "m10",
+      "moduleTitle": "Copying, moving, and value categories",
+      "moduleNumber": 10,
+      "number": "10.5",
+      "title": "Lvalues and rvalues",
+      "slug": "10-5-lvalues-and-rvalues",
+      "body": "Simple model:\n\n- Lvalue: has identity; can be named or addressed.\n- Rvalue: temporary or expiring value.\n\n```cpp\nint x = 5;   // x is an lvalue\nint y = x+1; // x+1 is an rvalue/prvalue\n```\n\nNamed variables are lvalues, even if their type is rvalue reference.\n\n```cpp\nvoid f(std::string&& s) {\n    std::string a = s;            // copy, because s is an lvalue expression\n    std::string b = std::move(s); // move\n}\n```",
+      "tags": [
+        "value-categories"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c10-6",
+      "moduleId": "m10",
+      "moduleTitle": "Copying, moving, and value categories",
+      "moduleNumber": 10,
+      "number": "10.6",
+      "title": "Move constructor",
+      "slug": "10-6-move-constructor",
+      "body": "```cpp\nclass Buffer {\npublic:\n    Buffer(Buffer&& other) noexcept\n        : data_(std::move(other.data_)) {}\n\nprivate:\n    std::vector<double> data_;\n};\n```\n\nFor standard library members, default move is often enough:\n\n```cpp\nclass Buffer {\npublic:\n    Buffer(Buffer&&) noexcept = default;\n    Buffer& operator=(Buffer&&) noexcept = default;\n\nprivate:\n    std::vector<double> data_;\n};\n```",
+      "tags": [
+        "move-semantics",
+        "const"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c10-7",
+      "moduleId": "m10",
+      "moduleTitle": "Copying, moving, and value categories",
+      "moduleNumber": 10,
+      "number": "10.7",
+      "title": "Copy elision",
+      "slug": "10-7-copy-elision",
+      "body": "Returning by value is efficient:\n\n```cpp\nstd::vector<int> make_values() {\n    std::vector<int> v = {1, 2, 3};\n    return v;\n}\n```\n\nThe compiler can construct the returned object directly in the caller.\n\nAvoid this:\n\n```cpp\nreturn std::move(v);\n```\n\nIt may inhibit copy elision.",
+      "tags": [],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c10-8",
+      "moduleId": "m10",
+      "moduleTitle": "Copying, moving, and value categories",
+      "moduleNumber": 10,
+      "number": "10.8",
+      "title": "Pass-by-value-and-move",
+      "slug": "10-8-pass-by-value-and-move",
+      "body": "Useful for constructors that store a copy.\n\n```cpp\nclass Strategy {\npublic:\n    explicit Strategy(std::string name)\n        : name_(std::move(name)) {}\n\nprivate:\n    std::string name_;\n};\n```\n\nIf caller passes an lvalue, it copies into `name`, then moves into `name_`.\nIf caller passes an rvalue, it moves.\n\nThis is clean and often efficient.",
+      "tags": [
+        "move-semantics"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c10-9",
+      "moduleId": "m10",
+      "moduleTitle": "Copying, moving, and value categories",
+      "moduleNumber": 10,
+      "number": "10.9",
+      "title": "`noexcept` move",
+      "slug": "10-9-noexcept-move",
+      "body": "Standard containers may prefer copying over moving if move might throw.\n\n```cpp\nclass Order {\npublic:\n    Order(Order&&) noexcept = default;\n    Order& operator=(Order&&) noexcept = default;\n};\n```\n\nMark move operations `noexcept` when they cannot throw.",
+      "tags": [
+        "move-semantics"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c10-10",
+      "moduleId": "m10",
+      "moduleTitle": "Copying, moving, and value categories",
+      "moduleNumber": 10,
+      "number": "10.10",
+      "title": "Interview questions",
+      "slug": "10-10-interview-questions",
+      "body": "### Q: What is the difference between copy and move?\n\nAnswer:\n\n> Copying creates an independent duplicate. Moving transfers resources from one object to another, often avoiding allocation and deep copy. After a move, the source object remains valid but has unspecified value.\n\n### Q: What does `std::move` do?\n\nAnswer:\n\n> It casts an expression to an rvalue reference. It does not move anything by itself. It enables move constructors or move assignment operators to be selected.\n\n### Follow-up: Why do we need `std::move` inside a move constructor?\n\nAnswer:\n\n> Because named variables are lvalues even if their type is rvalue reference. To move from a member of the source object, we must cast it with `std::move`.\n\n### Q: What is copy elision?\n\nAnswer:\n\n> Copy elision is a compiler optimization where copies or moves are omitted by constructing an object directly in its final location. Modern C++ guarantees copy elision in some cases, making return-by-value efficient.\n\n### Q: Why should move constructors be `noexcept`?\n\nAnswer:\n\n> Containers like `std::vector` can use move operations during reallocation only if moving is safe from throwing, otherwise they may copy to preserve exception safety.\n\n---",
+      "tags": [],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c11-1",
+      "moduleId": "m11",
+      "moduleTitle": "Object-oriented C++ and virtual functions",
+      "moduleNumber": 11,
+      "number": "11.1",
+      "title": "Why OOP exists",
+      "slug": "11-1-why-oop-exists",
+      "body": "Object-oriented programming helps model interfaces and polymorphic behavior.\n\nExample:\n\n```cpp\nclass Instrument {\npublic:\n    virtual ~Instrument() = default;\n    virtual double price() const = 0;\n};\n```\n\nDifferent instruments can implement pricing differently:\n\n```cpp\nclass EuropeanCall : public Instrument {\npublic:\n    double price() const override {\n        return 1.23;\n    }\n};\n\nclass Bond : public Instrument {\npublic:\n    double price() const override {\n        return 99.5;\n    }\n};\n```\n\nA function can work with any instrument:\n\n```cpp\nvoid print_price(const Instrument& inst) {\n    std::cout << inst.price() << '\\n';\n}\n```",
+      "tags": [
+        "oop"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c11-2",
+      "moduleId": "m11",
+      "moduleTitle": "Object-oriented C++ and virtual functions",
+      "moduleNumber": 11,
+      "number": "11.2",
+      "title": "Virtual functions",
+      "slug": "11-2-virtual-functions",
+      "body": "A virtual function is dispatched based on runtime type.\n\n```cpp\nInstrument& inst = call;\ninst.price(); // calls EuropeanCall::price()\n```\n\nWithout `virtual`, the function call is resolved based on static type.",
+      "tags": [
+        "oop"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c11-3",
+      "moduleId": "m11",
+      "moduleTitle": "Object-oriented C++ and virtual functions",
+      "moduleNumber": 11,
+      "number": "11.3",
+      "title": "Vtable mental model",
+      "slug": "11-3-vtable-mental-model",
+      "body": "Most compilers implement virtual functions using:\n\n- A hidden pointer in each polymorphic object: vptr\n- A table of function pointers for each class: vtable\n\nA virtual call does roughly:\n\n1. Load object's vptr.\n2. Find function pointer in vtable.\n3. Call through function pointer.\n\nCosts:\n\n- Extra pointer in object\n- Indirect call\n- Harder to inline\n- Possible branch prediction/cache effects\n\nBut virtual functions are often perfectly fine outside ultra-hot loops.",
+      "tags": [
+        "oop"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c11-4",
+      "moduleId": "m11",
+      "moduleTitle": "Object-oriented C++ and virtual functions",
+      "moduleNumber": 11,
+      "number": "11.4",
+      "title": "Pure virtual functions and abstract classes",
+      "slug": "11-4-pure-virtual-functions-and-abstract-classes",
+      "body": "```cpp\nclass Strategy {\npublic:\n    virtual ~Strategy() = default;\n    virtual void on_tick(const Tick& tick) = 0;\n};\n```\n\n`= 0` makes the function pure virtual. The class is abstract and cannot be instantiated directly.",
+      "tags": [
+        "oop"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c11-5",
+      "moduleId": "m11",
+      "moduleTitle": "Object-oriented C++ and virtual functions",
+      "moduleNumber": 11,
+      "number": "11.5",
+      "title": "Virtual destructor",
+      "slug": "11-5-virtual-destructor",
+      "body": "Always use a virtual destructor in polymorphic base classes.\n\n```cpp\nclass Base {\npublic:\n    virtual ~Base() = default;\n};\n```\n\nWhy?\n\n```cpp\nBase* p = new Derived();\ndelete p;\n```\n\nIf `Base` destructor is not virtual, deleting through `Base*` is undefined behavior.",
+      "tags": [
+        "oop"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c11-6",
+      "moduleId": "m11",
+      "moduleTitle": "Object-oriented C++ and virtual functions",
+      "moduleNumber": 11,
+      "number": "11.6",
+      "title": "Object slicing",
+      "slug": "11-6-object-slicing",
+      "body": "```cpp\nvoid f(Instrument inst); // pass by value\n\nEuropeanCall call;\nf(call); // slices derived part\n```\n\nThe `EuropeanCall` part is lost because only the base subobject is copied.\n\nFix:\n\n```cpp\nvoid f(const Instrument& inst);\n```",
+      "tags": [
+        "oop"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c11-7",
+      "moduleId": "m11",
+      "moduleTitle": "Object-oriented C++ and virtual functions",
+      "moduleNumber": 11,
+      "number": "11.7",
+      "title": "Inheritance vs composition",
+      "slug": "11-7-inheritance-vs-composition",
+      "body": "Inheritance means “is-a.”\n\n```cpp\nclass EquityOption : public Instrument {};\n```\n\nComposition means “has-a.”\n\n```cpp\nclass Strategy {\n    RiskModel risk_model_;\n};\n```\n\nPrefer composition unless true substitutability exists.",
+      "tags": [
+        "oop"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c11-8",
+      "moduleId": "m11",
+      "moduleTitle": "Object-oriented C++ and virtual functions",
+      "moduleNumber": 11,
+      "number": "11.8",
+      "title": "Static polymorphism",
+      "slug": "11-8-static-polymorphism",
+      "body": "Templates can provide compile-time polymorphism.\n\n```cpp\ntemplate <typename Strategy>\nvoid run(Strategy& strategy, const Tick& tick) {\n    strategy.on_tick(tick);\n}\n```\n\nBenefits:\n\n- Can inline\n- No virtual dispatch\n\nCosts:\n\n- More templates\n- Longer compile times\n- Potential code bloat",
+      "tags": [
+        "oop"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c11-9",
+      "moduleId": "m11",
+      "moduleTitle": "Object-oriented C++ and virtual functions",
+      "moduleNumber": 11,
+      "number": "11.9",
+      "title": "Interview questions",
+      "slug": "11-9-interview-questions",
+      "body": "### Q: What is a virtual function?\n\nAnswer:\n\n> A virtual function allows runtime polymorphism. When called through a base pointer or reference, the derived class override is selected based on the object's dynamic type.\n\n### Follow-up: How is it implemented?\n\nAnswer:\n\n> Usually through a vtable. Each polymorphic object has a hidden vptr pointing to a table of function pointers. A virtual call uses that table to call the correct override.\n\n### Follow-up: What is the cost?\n\nAnswer:\n\n> The cost is usually one level of indirection, an extra vptr per object, and reduced inlining. It can matter in very hot loops but is acceptable in many designs.\n\n### Q: Why virtual destructor?\n\nAnswer:\n\n> If a derived object is deleted through a base pointer, the base destructor must be virtual so the derived destructor runs. Without it, behavior is undefined.\n\n### Q: What is object slicing?\n\nAnswer:\n\n> Object slicing happens when a derived object is copied into a base object by value, losing the derived part. Avoid by using references or pointers for polymorphic objects.\n\n---",
+      "tags": [
+        "oop"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c12-1",
+      "moduleId": "m12",
+      "moduleTitle": "Templates and generic programming",
+      "moduleNumber": 12,
+      "number": "12.1",
+      "title": "Why templates exist",
+      "slug": "12-1-why-templates-exist",
+      "body": "Templates let you write generic code without sacrificing type safety or performance.\n\nInstead of writing:\n\n```cpp\nint square_int(int x) { return x * x; }\ndouble square_double(double x) { return x * x; }\n```\n\nUse:\n\n```cpp\ntemplate <typename T>\nT square(T x) {\n    return x * x;\n}\n```\n\nThe compiler generates versions for used types.",
+      "tags": [
+        "templates"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c12-2",
+      "moduleId": "m12",
+      "moduleTitle": "Templates and generic programming",
+      "moduleNumber": 12,
+      "number": "12.2",
+      "title": "Function templates",
+      "slug": "12-2-function-templates",
+      "body": "```cpp\ntemplate <typename T>\nT max_value(T a, T b) {\n    return a < b ? b : a;\n}\n```\n\nUsage:\n\n```cpp\nauto x = max_value(3, 5);\nauto y = max_value(2.0, 4.0);\n```\n\nBut this fails:\n\n```cpp\nmax_value(3, 4.0); // T cannot be both int and double\n```\n\nFix:\n\n```cpp\ntemplate <typename T, typename U>\nauto max_value(T a, U b) {\n    return a < b ? b : a;\n}\n```",
+      "tags": [
+        "templates"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c12-3",
+      "moduleId": "m12",
+      "moduleTitle": "Templates and generic programming",
+      "moduleNumber": 12,
+      "number": "12.3",
+      "title": "Class templates",
+      "slug": "12-3-class-templates",
+      "body": "```cpp\ntemplate <typename T>\nclass Box {\npublic:\n    explicit Box(T value) : value_(std::move(value)) {}\n    const T& value() const { return value_; }\n\nprivate:\n    T value_;\n};\n```\n\nUsage:\n\n```cpp\nBox<int> a{5};\nBox<std::string> b{\"AAPL\"};\n```",
+      "tags": [
+        "templates"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c12-4",
+      "moduleId": "m12",
+      "moduleTitle": "Templates and generic programming",
+      "moduleNumber": 12,
+      "number": "12.4",
+      "title": "`typename` vs `class`",
+      "slug": "12-4-typename-vs-class",
+      "body": "In template parameter lists, these are equivalent:\n\n```cpp\ntemplate <typename T>\ntemplate <class T>\n```\n\nMost modern code uses `typename`.",
+      "tags": [
+        "templates"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c12-5",
+      "moduleId": "m12",
+      "moduleTitle": "Templates and generic programming",
+      "moduleNumber": 12,
+      "number": "12.5",
+      "title": "Dependent names",
+      "slug": "12-5-dependent-names",
+      "body": "This is a key intermediate concept.\n\n```cpp\ntemplate <typename Container>\nvoid f(const Container& c) {\n    typename Container::const_iterator it = c.begin();\n}\n```\n\n`Container::const_iterator` depends on `Container`. Before instantiation, the compiler does not know whether it is a type or a static variable.\n\n`typename` tells the compiler it is a type.\n\nWithout it, the compiler may not parse the code correctly.",
+      "tags": [
+        "templates"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c12-6",
+      "moduleId": "m12",
+      "moduleTitle": "Templates and generic programming",
+      "moduleNumber": 12,
+      "number": "12.6",
+      "title": "`auto` in templates",
+      "slug": "12-6-auto-in-templates",
+      "body": "Often you can avoid verbose dependent names:\n\n```cpp\ntemplate <typename Container>\nvoid f(const Container& c) {\n    auto it = c.begin();\n}\n```\n\nBut interviewers may still ask why `typename` exists.",
+      "tags": [
+        "templates"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c12-7",
+      "moduleId": "m12",
+      "moduleTitle": "Templates and generic programming",
+      "moduleNumber": 12,
+      "number": "12.7",
+      "title": "Type traits",
+      "slug": "12-7-type-traits",
+      "body": "Type traits let you ask questions about types at compile time.\n\n```cpp\n#include <type_traits>\n\ntemplate <typename T>\nvoid process(T x) {\n    if constexpr (std::is_integral_v<T>) {\n        std::cout << \"integer\\n\";\n    } else if constexpr (std::is_floating_point_v<T>) {\n        std::cout << \"floating point\\n\";\n    } else {\n        std::cout << \"other\\n\";\n    }\n}\n```\n\n`if constexpr` discards branches at compile time.",
+      "tags": [
+        "templates"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c12-8",
+      "moduleId": "m12",
+      "moduleTitle": "Templates and generic programming",
+      "moduleNumber": 12,
+      "number": "12.8",
+      "title": "SFINAE high-level idea",
+      "slug": "12-8-sfinae-high-level-idea",
+      "body": "SFINAE means substitution failure is not an error.\n\nIf a template overload cannot be formed for a type, the compiler removes it from overload resolution rather than failing immediately.\n\nOlder C++ used SFINAE heavily for constraints.\n\n```cpp\ntemplate <typename T, std::enable_if_t<std::is_integral_v<T>, int> = 0>\nvoid only_integral(T x) {}\n```\n\nYou do not need to master complex SFINAE initially, but you should understand the concept.",
+      "tags": [
+        "templates"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c12-9",
+      "moduleId": "m12",
+      "moduleTitle": "Templates and generic programming",
+      "moduleNumber": 12,
+      "number": "12.9",
+      "title": "Concepts",
+      "slug": "12-9-concepts",
+      "body": "C++20 concepts make constraints readable.\n\n```cpp\n#include <concepts>\n\ntemplate <std::floating_point T>\nT scale_vol(T price, T vol) {\n    return price * vol;\n}\n```\n\nCustom concept:\n\n```cpp\ntemplate <typename T>\nconcept HasPrice = requires(T x) {\n    { x.price() } -> std::convertible_to<double>;\n};\n\ntemplate <HasPrice T>\ndouble get_price(const T& x) {\n    return x.price();\n}\n```",
+      "tags": [
+        "templates",
+        "concepts"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c12-10",
+      "moduleId": "m12",
+      "moduleTitle": "Templates and generic programming",
+      "moduleNumber": 12,
+      "number": "12.10",
+      "title": "Interview questions",
+      "slug": "12-10-interview-questions",
+      "body": "### Q: What is a template?\n\nAnswer:\n\n> A template is a compile-time mechanism for generic programming. The compiler instantiates concrete versions of the template for the types used. Templates provide static polymorphism and can be optimized heavily.\n\n### Q: What is the difference between templates and virtual functions?\n\nAnswer:\n\n> Templates provide compile-time polymorphism; virtual functions provide runtime polymorphism. Templates can be inlined and optimized for each type, but can increase compile time and binary size. Virtual functions are more flexible for runtime substitution but involve dynamic dispatch.\n\n### Q: When do you need `typename`?\n\nAnswer:\n\n> You need `typename` before a dependent nested type name, such as `typename T::value_type`, because the compiler does not know whether `T::value_type` is a type until the template is instantiated.\n\n### Q: What are concepts?\n\nAnswer:\n\n> Concepts are C++20 constraints on template parameters. They make requirements explicit and improve error messages compared with older SFINAE approaches.\n\n---",
+      "tags": [
+        "templates"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c13-1",
+      "moduleId": "m13",
+      "moduleTitle": "STL containers: beginner-to-intermediate depth",
+      "moduleNumber": 13,
+      "number": "13.1",
+      "title": "Why containers matter",
+      "slug": "13-1-why-containers-matter",
+      "body": "STL containers manage memory and provide common data structures.\n\nThe key interview skill is knowing:\n\n- What the container stores\n- Its complexity\n- Its memory layout\n- Iterator/reference invalidation\n- When to use it",
+      "tags": [
+        "stl"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c13-2",
+      "moduleId": "m13",
+      "moduleTitle": "STL containers: beginner-to-intermediate depth",
+      "moduleNumber": 13,
+      "number": "13.2",
+      "title": "`std::vector`",
+      "slug": "13-2-std-vector",
+      "body": "A dynamic array with contiguous memory.\n\n```cpp\nstd::vector<int> v;\nv.push_back(1);\nv.push_back(2);\n```\n\nInternally, vector usually stores:\n\n- Pointer to beginning\n- Pointer to end of used elements\n- Pointer to end of capacity\n\n### Size vs capacity\n\n```cpp\nstd::vector<int> v;\nstd::cout << v.size();     // number of elements\nstd::cout << v.capacity(); // allocated space\n```\n\n### `reserve`\n\n```cpp\nv.reserve(1000);\n```\n\nAllocates enough memory for at least 1000 elements but does not create them.\n\n### `resize`\n\n```cpp\nv.resize(1000);\n```\n\nChanges size to 1000 and constructs elements.\n\n### Reallocation\n\nIf vector runs out of capacity, it allocates a larger buffer and moves/copies elements.\n\nThis invalidates pointers, references, and iterators to elements.\n\n```cpp\nstd::vector<int> v = {1, 2, 3};\nint& r = v[0];\nv.push_back(4); // may reallocate\n// r may now dangle\n```\n\n### When to use vector\n\nUse vector by default for sequences.\n\nGood for:\n\n- Numeric arrays\n- Time series\n- Simulation paths\n- Batches of orders/messages\n- Most dynamic collections",
+      "tags": [
+        "stl"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c13-3",
+      "moduleId": "m13",
+      "moduleTitle": "STL containers: beginner-to-intermediate depth",
+      "moduleNumber": 13,
+      "number": "13.3",
+      "title": "`std::deque`",
+      "slug": "13-3-std-deque",
+      "body": "A double-ended queue.\n\n```cpp\nstd::deque<int> d;\nd.push_back(1);\nd.push_front(0);\n```\n\nGood for:\n\n- Push/pop at both ends\n- Queues\n- Sliding windows\n\nNot one contiguous block, so less cache-friendly than vector for scanning.",
+      "tags": [
+        "stl"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c13-4",
+      "moduleId": "m13",
+      "moduleTitle": "STL containers: beginner-to-intermediate depth",
+      "moduleNumber": 13,
+      "number": "13.4",
+      "title": "`std::list`",
+      "slug": "13-4-std-list",
+      "body": "A doubly linked list.\n\n```cpp\nstd::list<int> l;\nl.push_back(1);\nl.push_back(2);\n```\n\nPros:\n\n- Stable iterators\n- O(1) insert/erase given iterator\n\nCons:\n\n- Poor cache locality\n- Extra memory per node\n- Allocation per node\n- No random access\n\nUse only when you truly need node stability or frequent middle insertion/removal.",
+      "tags": [
+        "stl"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c13-5",
+      "moduleId": "m13",
+      "moduleTitle": "STL containers: beginner-to-intermediate depth",
+      "moduleNumber": 13,
+      "number": "13.5",
+      "title": "`std::map`",
+      "slug": "13-5-std-map",
+      "body": "Ordered key-value container, usually a balanced tree.\n\n```cpp\nstd::map<std::string, double> prices;\nprices[\"AAPL\"] = 190.0;\n```\n\nProperties:\n\n- Sorted by key\n- O(log n) lookup/insert/delete\n- Stable iterators except erased elements\n\nUse when ordering matters.",
+      "tags": [
+        "stl"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c13-6",
+      "moduleId": "m13",
+      "moduleTitle": "STL containers: beginner-to-intermediate depth",
+      "moduleNumber": 13,
+      "number": "13.6",
+      "title": "`std::unordered_map`",
+      "slug": "13-6-std-unordered-map",
+      "body": "Hash table.\n\n```cpp\nstd::unordered_map<std::string, double> prices;\nprices[\"AAPL\"] = 190.0;\n```\n\nProperties:\n\n- Average O(1) lookup/insert/delete\n- No ordering\n- Rehash can invalidate iterators\n- Performance depends on hash quality and load factor\n\nUse for fast lookup when order does not matter.",
+      "tags": [
+        "stl",
+        "quant"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c13-7",
+      "moduleId": "m13",
+      "moduleTitle": "STL containers: beginner-to-intermediate depth",
+      "moduleNumber": 13,
+      "number": "13.7",
+      "title": "`std::set` and `std::unordered_set`",
+      "slug": "13-7-std-set-and-std-unordered-set",
+      "body": "Like map/unordered_map but store only keys.\n\n```cpp\nstd::set<int> sorted_ids;\nstd::unordered_set<int> seen_ids;\n```",
+      "tags": [
+        "stl",
+        "quant"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c13-8",
+      "moduleId": "m13",
+      "moduleTitle": "STL containers: beginner-to-intermediate depth",
+      "moduleNumber": 13,
+      "number": "13.8",
+      "title": "`std::priority_queue`",
+      "slug": "13-8-std-priority-queue",
+      "body": "Heap adaptor.\n\n```cpp\nstd::priority_queue<int> max_heap;\nmax_heap.push(10);\nmax_heap.push(5);\nstd::cout << max_heap.top(); // 10\n```\n\nMin heap:\n\n```cpp\nstd::priority_queue<int, std::vector<int>, std::greater<int>> min_heap;\n```\n\nGood for retrieving max/min repeatedly.\n\nNot ideal when you need arbitrary deletion.",
+      "tags": [
+        "stl"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c13-9",
+      "moduleId": "m13",
+      "moduleTitle": "STL containers: beginner-to-intermediate depth",
+      "moduleNumber": 13,
+      "number": "13.9",
+      "title": "`std::optional`",
+      "slug": "13-9-std-optional",
+      "body": "Represents maybe-a-value.\n\n```cpp\nstd::optional<double> best_bid() {\n    if (empty()) return std::nullopt;\n    return bid;\n}\n```\n\nUse instead of sentinel values when absence is meaningful.",
+      "tags": [
+        "stl"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c13-10",
+      "moduleId": "m13",
+      "moduleTitle": "STL containers: beginner-to-intermediate depth",
+      "moduleNumber": 13,
+      "number": "13.10",
+      "title": "`std::variant`",
+      "slug": "13-10-std-variant",
+      "body": "Type-safe union.\n\n```cpp\nusing Field = std::variant<int, double, std::string>;\nField f = 3.14;\n```\n\nVisit:\n\n```cpp\nstd::visit([](const auto& x) {\n    std::cout << x << '\\n';\n}, f);\n```\n\nUseful for typed columns and messages.",
+      "tags": [
+        "stl"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c13-11",
+      "moduleId": "m13",
+      "moduleTitle": "STL containers: beginner-to-intermediate depth",
+      "moduleNumber": 13,
+      "number": "13.11",
+      "title": "`std::span`",
+      "slug": "13-11-std-span",
+      "body": "Non-owning view over contiguous memory.\n\n```cpp\nvoid normalize(std::span<double> xs) {\n    for (double& x : xs) x *= 0.01;\n}\n```\n\nCan accept vector, array, or raw buffer.\n\nDoes not own data.",
+      "tags": [
+        "stl"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c13-12",
+      "moduleId": "m13",
+      "moduleTitle": "STL containers: beginner-to-intermediate depth",
+      "moduleNumber": 13,
+      "number": "13.12",
+      "title": "`std::string_view`",
+      "slug": "13-12-std-string-view",
+      "body": "Non-owning view over string data.\n\n```cpp\nvoid parse_symbol(std::string_view symbol);\n```\n\nAvoids copying.\n\nDanger:\n\n```cpp\nstd::string_view bad() {\n    std::string s = \"AAPL\";\n    return s; // dangling\n}\n```",
+      "tags": [
+        "stl"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c13-13",
+      "moduleId": "m13",
+      "moduleTitle": "STL containers: beginner-to-intermediate depth",
+      "moduleNumber": 13,
+      "number": "13.13",
+      "title": "Interview questions",
+      "slug": "13-13-interview-questions",
+      "body": "### Q: `vector` vs `list`?\n\nAnswer:\n\n> `vector` stores elements contiguously, which gives excellent cache locality and fast iteration. `list` stores separate nodes linked by pointers, so insertion/removal given an iterator is O(1), but iteration is slower due to pointer chasing and poor locality. I use vector by default unless I specifically need stable iterators and frequent middle insertion/removal.\n\n### Q: `map` vs `unordered_map`?\n\nAnswer:\n\n> `map` is ordered and gives O(log n) operations, usually using a balanced tree. `unordered_map` is hash-based and gives average O(1) operations but no ordering and possible worst-case O(n). Use map for sorted traversal/range queries and unordered_map for fast lookup.\n\n### Q: What invalidates vector iterators?\n\nAnswer:\n\n> Reallocation invalidates all iterators, references, and pointers to elements. Insertions and erasures can also invalidate elements at or after the modification point.\n\n### Q: `reserve` vs `resize`?\n\nAnswer:\n\n> `reserve` changes capacity but not size. `resize` changes the number of actual elements and constructs or destroys elements.\n\n### Q: What is `string_view`?\n\nAnswer:\n\n> `string_view` is a non-owning view into character data. It avoids copies but can dangle if the underlying string does not outlive the view.\n\n---",
+      "tags": [
+        "stl"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c14-1",
+      "moduleId": "m14",
+      "moduleTitle": "Iterators and invalidation",
+      "moduleNumber": 14,
+      "number": "14.1",
+      "title": "What is an iterator?",
+      "slug": "14-1-what-is-an-iterator",
+      "body": "An iterator is an object that points into a container and allows traversal.\n\n```cpp\nstd::vector<int> v = {1, 2, 3};\nfor (auto it = v.begin(); it != v.end(); ++it) {\n    std::cout << *it << '\\n';\n}\n```\n\nRange-based loop uses iterators internally:\n\n```cpp\nfor (int x : v) {\n    std::cout << x << '\\n';\n}\n```",
+      "tags": [
+        "iterators"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c14-2",
+      "moduleId": "m14",
+      "moduleTitle": "Iterators and invalidation",
+      "moduleNumber": 14,
+      "number": "14.2",
+      "title": "Iterator categories",
+      "slug": "14-2-iterator-categories",
+      "body": "You do not need to memorize all details initially, but know the idea:\n\n- Input iterator: read forward\n- Forward iterator: multi-pass forward\n- Bidirectional iterator: forward and backward\n- Random-access iterator: jump by index-like operations\n- Contiguous iterator: memory contiguous\n\n`vector` has random-access/contiguous iterators.\n`list` has bidirectional iterators.",
+      "tags": [
+        "iterators"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c14-3",
+      "moduleId": "m14",
+      "moduleTitle": "Iterators and invalidation",
+      "moduleNumber": 14,
+      "number": "14.3",
+      "title": "Invalidation",
+      "slug": "14-3-invalidation",
+      "body": "Invalidation means an iterator/reference/pointer no longer safely refers to an element.\n\nExample:\n\n```cpp\nstd::vector<int> v = {1, 2, 3};\nauto it = v.begin();\nv.push_back(4); // may invalidate it\n```\n\nUsing invalidated iterators is undefined behavior.",
+      "tags": [
+        "iterators"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c14-4",
+      "moduleId": "m14",
+      "moduleTitle": "Iterators and invalidation",
+      "moduleNumber": 14,
+      "number": "14.4",
+      "title": "Common rules",
+      "slug": "14-4-common-rules",
+      "body": "### Vector\n\n- Reallocation invalidates all.\n- Erase invalidates erased element and elements after it.\n- Insert may invalidate all if reallocation happens.\n\n### List\n\n- Insert does not invalidate existing iterators.\n- Erase invalidates only erased iterator.\n\n### Map/set\n\n- Insert does not invalidate existing iterators.\n- Erase invalidates only erased element.\n\n### Unordered map/set\n\n- Rehash invalidates iterators.\n- Erase invalidates erased element.",
+      "tags": [
+        "iterators"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c14-5",
+      "moduleId": "m14",
+      "moduleTitle": "Iterators and invalidation",
+      "moduleNumber": 14,
+      "number": "14.5",
+      "title": "Interview questions",
+      "slug": "14-5-interview-questions",
+      "body": "### Q: Why do iterator invalidation rules matter?\n\nAnswer:\n\n> Because using an invalidated iterator or reference is undefined behavior. In systems code, it can lead to subtle memory bugs. For example, storing references into a vector is dangerous if the vector may grow and reallocate.\n\n### Q: How do you avoid vector invalidation?\n\nAnswer:\n\n> Reserve capacity when possible, avoid storing long-lived references/pointers into vectors that may grow, use indices carefully, or choose containers with more stable iterators when needed.\n\n---",
+      "tags": [
+        "iterators"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c15-1",
+      "moduleId": "m15",
+      "moduleTitle": "Algorithms, lambdas, and idiomatic STL",
+      "moduleNumber": 15,
+      "number": "15.1",
+      "title": "Why algorithms matter",
+      "slug": "15-1-why-algorithms-matter",
+      "body": "C++ standard algorithms make intent clear and reduce bugs.\n\nInstead of manual loops for everything, use:\n\n```cpp\nstd::sort(v.begin(), v.end());\nstd::find(v.begin(), v.end(), x);\nstd::accumulate(v.begin(), v.end(), 0.0);\n```",
+      "tags": [
+        "stl",
+        "algorithms",
+        "lambdas"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c15-2",
+      "moduleId": "m15",
+      "moduleTitle": "Algorithms, lambdas, and idiomatic STL",
+      "moduleNumber": 15,
+      "number": "15.2",
+      "title": "Sorting",
+      "slug": "15-2-sorting",
+      "body": "```cpp\nstd::sort(orders.begin(), orders.end(), [](const Order& a, const Order& b) {\n    return a.price < b.price;\n});\n```\n\nComparator returns true if `a` should come before `b`.",
+      "tags": [
+        "stl",
+        "algorithms",
+        "lambdas"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c15-3",
+      "moduleId": "m15",
+      "moduleTitle": "Algorithms, lambdas, and idiomatic STL",
+      "moduleNumber": 15,
+      "number": "15.3",
+      "title": "`lower_bound`",
+      "slug": "15-3-lower-bound",
+      "body": "Requires sorted range.\n\n```cpp\nauto it = std::lower_bound(v.begin(), v.end(), target);\n```\n\nFinds first element not less than target.",
+      "tags": [
+        "stl",
+        "algorithms",
+        "lambdas"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c15-4",
+      "moduleId": "m15",
+      "moduleTitle": "Algorithms, lambdas, and idiomatic STL",
+      "moduleNumber": 15,
+      "number": "15.4",
+      "title": "`accumulate`",
+      "slug": "15-4-accumulate",
+      "body": "```cpp\ndouble sum = std::accumulate(values.begin(), values.end(), 0.0);\n```\n\nImportant: initial value type matters.\n\n```cpp\nstd::vector<double> xs = {1.5, 2.5};\nauto bad = std::accumulate(xs.begin(), xs.end(), 0);   // int accumulation\n```\n\nUse `0.0` for double accumulation.",
+      "tags": [
+        "stl",
+        "algorithms",
+        "lambdas"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c15-5",
+      "moduleId": "m15",
+      "moduleTitle": "Algorithms, lambdas, and idiomatic STL",
+      "moduleNumber": 15,
+      "number": "15.5",
+      "title": "Erase-remove idiom",
+      "slug": "15-5-erase-remove-idiom",
+      "body": "```cpp\nv.erase(std::remove_if(v.begin(), v.end(), [](int x) {\n    return x < 0;\n}), v.end());\n```\n\n`remove_if` does not shrink the container. It moves kept elements forward and returns the logical end. `erase` removes the tail.",
+      "tags": [
+        "move-semantics",
+        "stl",
+        "algorithms",
+        "lambdas"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c15-6",
+      "moduleId": "m15",
+      "moduleTitle": "Algorithms, lambdas, and idiomatic STL",
+      "moduleNumber": 15,
+      "number": "15.6",
+      "title": "Lambdas",
+      "slug": "15-6-lambdas",
+      "body": "```cpp\nauto greater_than = [](double x, double threshold) {\n    return x > threshold;\n};\n```\n\nCapture by value:\n\n```cpp\ndouble threshold = 100.0;\nauto pred = [threshold](double x) {\n    return x > threshold;\n};\n```\n\nCapture by reference:\n\n```cpp\nauto pred = [&threshold](double x) {\n    return x > threshold;\n};\n```\n\nDanger: a lambda that outlives a referenced variable will dangle.",
+      "tags": [
+        "stl",
+        "algorithms",
+        "lambdas"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c15-7",
+      "moduleId": "m15",
+      "moduleTitle": "Algorithms, lambdas, and idiomatic STL",
+      "moduleNumber": 15,
+      "number": "15.7",
+      "title": "Interview questions",
+      "slug": "15-7-interview-questions",
+      "body": "### Q: Why prefer STL algorithms?\n\nAnswer:\n\n> They express intent clearly, reduce hand-written loop bugs, and are often optimized. They also make code easier to review because the operation is named.\n\n### Q: What is erase-remove?\n\nAnswer:\n\n> `remove_if` moves elements to keep toward the front and returns a new logical end, but does not change container size. `erase` then removes the unwanted tail. Together they remove elements from sequence containers like vector.\n\n### Q: What is a lambda capture?\n\nAnswer:\n\n> A lambda capture controls which outside variables are available inside the lambda and whether they are captured by value or reference. Capturing by reference can be dangerous if the lambda outlives the referenced variable.\n\n---",
+      "tags": [
+        "stl",
+        "algorithms",
+        "lambdas"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c16-1",
+      "moduleId": "m16",
+      "moduleTitle": "Hash tables and probing",
+      "moduleNumber": 16,
+      "number": "16.1",
+      "title": "What problem hash tables solve",
+      "slug": "16-1-what-problem-hash-tables-solve",
+      "body": "A hash table provides fast key-value lookup.\n\nExample:\n\n```cpp\nstd::unordered_map<std::string, double> prices;\nprices[\"AAPL\"] = 190.0;\n```\n\nLookup by key is average O(1).",
+      "tags": [
+        "stl"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c16-2",
+      "moduleId": "m16",
+      "moduleTitle": "Hash tables and probing",
+      "moduleNumber": 16,
+      "number": "16.2",
+      "title": "Hash function",
+      "slug": "16-2-hash-function",
+      "body": "A hash function maps a key to an integer.\n\n```cpp\nstd::hash<std::string> h;\nauto value = h(\"AAPL\");\n```\n\nThe table maps that hash to a bucket.",
+      "tags": [
+        "stl"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c16-3",
+      "moduleId": "m16",
+      "moduleTitle": "Hash tables and probing",
+      "moduleNumber": 16,
+      "number": "16.3",
+      "title": "Collision",
+      "slug": "16-3-collision",
+      "body": "Two different keys can map to the same bucket. This is a collision.\n\nCollision handling approaches:\n\n1. Separate chaining\n2. Open addressing\n3. Linear probing\n4. Quadratic probing\n5. Double hashing",
+      "tags": [
+        "stl"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c16-4",
+      "moduleId": "m16",
+      "moduleTitle": "Hash tables and probing",
+      "moduleNumber": 16,
+      "number": "16.4",
+      "title": "Separate chaining",
+      "slug": "16-4-separate-chaining",
+      "body": "Each bucket stores a list/vector of entries.\n\n```text\nbucket 0: (key1, value1) -> (key2, value2)\nbucket 1: empty\nbucket 2: (key3, value3)\n```\n\nLookup:\n\n1. Hash key.\n2. Go to bucket.\n3. Search entries in bucket.",
+      "tags": [
+        "stl"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c16-5",
+      "moduleId": "m16",
+      "moduleTitle": "Hash tables and probing",
+      "moduleNumber": 16,
+      "number": "16.5",
+      "title": "Open addressing",
+      "slug": "16-5-open-addressing",
+      "body": "All entries live in the array. On collision, probe for another slot.\n\nLinear probing:\n\n```cpp\nidx = (idx + 1) % capacity;\n```",
+      "tags": [
+        "stl"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c16-6",
+      "moduleId": "m16",
+      "moduleTitle": "Hash tables and probing",
+      "moduleNumber": 16,
+      "number": "16.6",
+      "title": "Load factor",
+      "slug": "16-6-load-factor",
+      "body": "Load factor:\n\n```text\nnumber of elements / number of buckets\n```\n\nAs load factor grows, collisions grow. Rehashing increases capacity.",
+      "tags": [
+        "stl"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c16-7",
+      "moduleId": "m16",
+      "moduleTitle": "Hash tables and probing",
+      "moduleNumber": 16,
+      "number": "16.7",
+      "title": "Tombstones",
+      "slug": "16-7-tombstones",
+      "body": "For open addressing, deletion needs tombstones.\n\nIf you mark a deleted slot as empty, searches may stop too early.\n\nA tombstone says:\n\n> Something was here, so search must continue, but insertion can reuse this slot.",
+      "tags": [
+        "stl"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c16-8",
+      "moduleId": "m16",
+      "moduleTitle": "Hash tables and probing",
+      "moduleNumber": 16,
+      "number": "16.8",
+      "title": "Interview questions",
+      "slug": "16-8-interview-questions",
+      "body": "### Q: How does a hash table work?\n\nAnswer:\n\n> A hash table uses a hash function to map keys to bucket indices. For lookup, it hashes the key, goes to the bucket, and searches for the key. Collisions are handled by chaining or probing. Average lookup is O(1), but worst-case can be O(n).\n\n### Q: What is load factor?\n\nAnswer:\n\n> Load factor is the ratio of stored elements to bucket count. Higher load factor means more collisions. Hash tables rehash to maintain efficient operations.\n\n### Q: Why are tombstones needed in open addressing?\n\nAnswer:\n\n> In open addressing, lookup follows a probe chain. If deletion marks a slot empty, the lookup may stop before reaching keys placed later in the chain. Tombstones preserve the chain while allowing reuse.\n\n---",
+      "tags": [
+        "stl"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c17-1",
+      "moduleId": "m17",
+      "moduleTitle": "Exceptions and error handling",
+      "moduleNumber": 17,
+      "number": "17.1",
+      "title": "What exceptions are",
+      "slug": "17-1-what-exceptions-are",
+      "body": "Exceptions are a way to signal errors that disrupt normal flow.\n\n```cpp\nif (!file) {\n    throw std::runtime_error(\"failed to open file\");\n}\n```\n\nCatching:\n\n```cpp\ntry {\n    run();\n} catch (const std::exception& e) {\n    std::cerr << e.what() << '\\n';\n}\n```",
+      "tags": [
+        "exceptions"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c17-2",
+      "moduleId": "m17",
+      "moduleTitle": "Exceptions and error handling",
+      "moduleNumber": 17,
+      "number": "17.2",
+      "title": "RAII makes exceptions safe",
+      "slug": "17-2-raii-makes-exceptions-safe",
+      "body": "If an exception is thrown, stack unwinding destroys local objects.\n\n```cpp\nvoid f() {\n    std::vector<int> v(1000);\n    std::lock_guard<std::mutex> lock(m);\n    throw std::runtime_error(\"fail\");\n}\n```\n\n`v` is destroyed and lock is released.",
+      "tags": [
+        "raii",
+        "exceptions"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c17-3",
+      "moduleId": "m17",
+      "moduleTitle": "Exceptions and error handling",
+      "moduleNumber": 17,
+      "number": "17.3",
+      "title": "Exception safety guarantees",
+      "slug": "17-3-exception-safety-guarantees",
+      "body": "### Basic guarantee\n\nObject remains valid, but state may change.\n\n### Strong guarantee\n\nOperation either succeeds or has no effect.\n\n### No-throw guarantee\n\nOperation does not throw.",
+      "tags": [
+        "exceptions"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c17-4",
+      "moduleId": "m17",
+      "moduleTitle": "Exceptions and error handling",
+      "moduleNumber": 17,
+      "number": "17.4",
+      "title": "Copy-and-swap",
+      "slug": "17-4-copy-and-swap",
+      "body": "```cpp\nclass X {\npublic:\n    X& operator=(X other) {\n        swap(other);\n        return *this;\n    }\n\n    void swap(X& other) noexcept {\n        using std::swap;\n        swap(data_, other.data_);\n    }\n\nprivate:\n    std::vector<int> data_;\n};\n```\n\nIf copying into `other` fails, `this` is unchanged. Swap should be no-throw.",
+      "tags": [
+        "exceptions"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c17-5",
+      "moduleId": "m17",
+      "moduleTitle": "Exceptions and error handling",
+      "moduleNumber": 17,
+      "number": "17.5",
+      "title": "Exceptions in low-latency code",
+      "slug": "17-5-exceptions-in-low-latency-code",
+      "body": "Some low-latency systems avoid throwing exceptions in hot paths because latency predictability matters.\n\nAlternatives:\n\n```cpp\nstd::optional<Order> parse_order(std::string_view line);\n```\n\nor status codes:\n\n```cpp\nenum class ParseError { None, BadPrice, BadQuantity };\n```",
+      "tags": [
+        "exceptions"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c17-6",
+      "moduleId": "m17",
+      "moduleTitle": "Exceptions and error handling",
+      "moduleNumber": 17,
+      "number": "17.6",
+      "title": "Interview questions",
+      "slug": "17-6-interview-questions",
+      "body": "### Q: Are exceptions bad?\n\nAnswer:\n\n> Not inherently. Exceptions work well with RAII and are useful for exceptional failures. But in latency-sensitive hot paths, teams often avoid throwing and use explicit error handling for predictability.\n\n### Q: What is the strong exception guarantee?\n\nAnswer:\n\n> The operation either completes successfully or leaves the object unchanged, as if the operation never happened.\n\n### Q: Why should destructors not throw?\n\nAnswer:\n\n> If a destructor throws during stack unwinding from another exception, the program may terminate. Destructors should generally handle cleanup failures internally and not throw.\n\n---",
+      "tags": [
+        "exceptions"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c18-1",
+      "moduleId": "m18",
+      "moduleTitle": "Concurrency from novice to intermediate",
+      "moduleNumber": 18,
+      "number": "18.1",
+      "title": "Why concurrency is hard",
+      "slug": "18-1-why-concurrency-is-hard",
+      "body": "Concurrency is difficult because multiple threads can interleave operations unpredictably.\n\nA line like:\n\n```cpp\n++counter;\n```\n\nis not one indivisible operation. It can mean:\n\n1. Load counter\n2. Add one\n3. Store result\n\nTwo threads can interleave and lose updates.",
+      "tags": [],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c18-2",
+      "moduleId": "m18",
+      "moduleTitle": "Concurrency from novice to intermediate",
+      "moduleNumber": 18,
+      "number": "18.2",
+      "title": "Threads",
+      "slug": "18-2-threads",
+      "body": "```cpp\nstd::thread t([] {\n    std::cout << \"worker\\n\";\n});\n\nt.join();\n```\n\nA `std::thread` must be joined or detached before destruction. Otherwise, program terminates.\n\nC++20 `std::jthread` joins automatically.",
+      "tags": [
+        "concurrency"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c18-3",
+      "moduleId": "m18",
+      "moduleTitle": "Concurrency from novice to intermediate",
+      "moduleNumber": 18,
+      "number": "18.3",
+      "title": "Data race",
+      "slug": "18-3-data-race",
+      "body": "A data race occurs when:\n\n- Two threads access same memory\n- At least one writes\n- No synchronization\n\nData races are undefined behavior.",
+      "tags": [],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c18-4",
+      "moduleId": "m18",
+      "moduleTitle": "Concurrency from novice to intermediate",
+      "moduleNumber": 18,
+      "number": "18.4",
+      "title": "Mutex",
+      "slug": "18-4-mutex",
+      "body": "A mutex protects a critical section.\n\n```cpp\nstd::mutex m;\nint counter = 0;\n\nvoid increment() {\n    std::lock_guard<std::mutex> lock(m);\n    ++counter;\n}\n```\n\nOnly one thread can hold the mutex at a time.",
+      "tags": [
+        "concurrency"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c18-5",
+      "moduleId": "m18",
+      "moduleTitle": "Concurrency from novice to intermediate",
+      "moduleNumber": 18,
+      "number": "18.5",
+      "title": "RAII locks",
+      "slug": "18-5-raii-locks",
+      "body": "`lock_guard` locks in constructor and unlocks in destructor.\n\n```cpp\n{\n    std::lock_guard<std::mutex> lock(m);\n    // protected\n} // unlock here\n```\n\nThis prevents forgetting to unlock.",
+      "tags": [
+        "raii"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c18-6",
+      "moduleId": "m18",
+      "moduleTitle": "Concurrency from novice to intermediate",
+      "moduleNumber": 18,
+      "number": "18.6",
+      "title": "`unique_lock`",
+      "slug": "18-6-unique-lock",
+      "body": "More flexible than lock_guard.\n\n```cpp\nstd::unique_lock<std::mutex> lock(m);\nlock.unlock();\nlock.lock();\n```\n\nNeeded for condition variables.",
+      "tags": [],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c18-7",
+      "moduleId": "m18",
+      "moduleTitle": "Concurrency from novice to intermediate",
+      "moduleNumber": 18,
+      "number": "18.7",
+      "title": "Condition variables",
+      "slug": "18-7-condition-variables",
+      "body": "Used for waiting until a condition is true.\n\n```cpp\nstd::mutex m;\nstd::condition_variable cv;\nstd::queue<int> q;\n\nvoid producer(int x) {\n    {\n        std::lock_guard<std::mutex> lock(m);\n        q.push(x);\n    }\n    cv.notify_one();\n}\n\nint consumer() {\n    std::unique_lock<std::mutex> lock(m);\n    cv.wait(lock, [] { return !q.empty(); });\n    int x = q.front();\n    q.pop();\n    return x;\n}\n```\n\nAlways wait with a predicate because of spurious wakeups.",
+      "tags": [],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c18-8",
+      "moduleId": "m18",
+      "moduleTitle": "Concurrency from novice to intermediate",
+      "moduleNumber": 18,
+      "number": "18.8",
+      "title": "Deadlock",
+      "slug": "18-8-deadlock",
+      "body": "Deadlock occurs when threads wait forever for each other.\n\n```cpp\nstd::mutex a, b;\n\nvoid t1() {\n    std::lock_guard<std::mutex> l1(a);\n    std::lock_guard<std::mutex> l2(b);\n}\n\nvoid t2() {\n    std::lock_guard<std::mutex> l1(b);\n    std::lock_guard<std::mutex> l2(a);\n}\n```\n\nPrevention:\n\n- Lock in consistent global order.\n- Use `std::scoped_lock(a, b)`.\n- Keep critical sections small.\n- Avoid callbacks while holding locks.",
+      "tags": [],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c18-9",
+      "moduleId": "m18",
+      "moduleTitle": "Concurrency from novice to intermediate",
+      "moduleNumber": 18,
+      "number": "18.9",
+      "title": "Reader-writer lock",
+      "slug": "18-9-reader-writer-lock",
+      "body": "Multiple readers can read simultaneously. Writer needs exclusive access.\n\n```cpp\nstd::shared_mutex m;\n\ndouble read_mid() {\n    std::shared_lock lock(m);\n    return mid;\n}\n\nvoid update_mid(double x) {\n    std::unique_lock lock(m);\n    mid = x;\n}\n```\n\nUse when reads are frequent and writes are less frequent.",
+      "tags": [],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c18-10",
+      "moduleId": "m18",
+      "moduleTitle": "Concurrency from novice to intermediate",
+      "moduleNumber": 18,
+      "number": "18.10",
+      "title": "Atomics",
+      "slug": "18-10-atomics",
+      "body": "Atomics provide safe concurrent access to a single variable.\n\n```cpp\nstd::atomic<int> counter{0};\n\nvoid increment() {\n    counter.fetch_add(1);\n}\n```\n\nUse atomics for simple independent variables. Use mutexes for compound state.",
+      "tags": [
+        "concurrency"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c18-11",
+      "moduleId": "m18",
+      "moduleTitle": "Concurrency from novice to intermediate",
+      "moduleNumber": 18,
+      "number": "18.11",
+      "title": "Memory ordering simplified",
+      "slug": "18-11-memory-ordering-simplified",
+      "body": "The safest default is sequential consistency.\n\n```cpp\ncounter.fetch_add(1); // default seq_cst\n```\n\nRelaxed ordering:\n\n```cpp\ncounter.fetch_add(1, std::memory_order_relaxed);\n```\n\nThis guarantees atomicity but not ordering with other operations.\n\nInterview-safe answer:\n\n> I use simple mutexes or default atomics unless performance requires weaker memory ordering and I can prove correctness.",
+      "tags": [
+        "memory",
+        "quant"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c18-12",
+      "moduleId": "m18",
+      "moduleTitle": "Concurrency from novice to intermediate",
+      "moduleNumber": 18,
+      "number": "18.12",
+      "title": "Interview questions",
+      "slug": "18-12-interview-questions",
+      "body": "### Q: What is a data race?\n\nAnswer:\n\n> A data race is concurrent unsynchronized access to the same memory where at least one access is a write. In C++, data races are undefined behavior.\n\n### Q: Is `counter++` thread-safe?\n\nAnswer:\n\n> Not for a normal integer. It is a read-modify-write sequence and can lose updates. Use a mutex or `std::atomic`.\n\n### Q: What is a deadlock?\n\nAnswer:\n\n> Deadlock occurs when threads wait on each other in a cycle, so none can proceed. It often happens when locks are acquired in inconsistent order.\n\n### Q: How would you implement a reader-writer lock?\n\nAnswer:\n\n> In production I would use `std::shared_mutex`. If implementing manually, I would track the number of active readers, whether a writer is active, and possibly waiting writers to avoid starvation, using a mutex and condition variable.\n\n### Q: Atomics vs mutexes?\n\nAnswer:\n\n> Atomics are good for simple independent variables like counters or flags. Mutexes are better for protecting invariants involving multiple variables because they are easier to reason about.\n\n---",
+      "tags": [],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c19-1",
+      "moduleId": "m19",
+      "moduleTitle": "Memory layout and performance",
+      "moduleNumber": 19,
+      "number": "19.1",
+      "title": "Performance mental model",
+      "slug": "19-1-performance-mental-model",
+      "body": "Performance is often limited by memory access, not arithmetic.\n\nCPU registers are fastest, then cache, then main memory. Accessing contiguous memory is much faster than chasing pointers across memory.",
+      "tags": [
+        "performance",
+        "memory"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c19-2",
+      "moduleId": "m19",
+      "moduleTitle": "Memory layout and performance",
+      "moduleNumber": 19,
+      "number": "19.2",
+      "title": "Cache locality",
+      "slug": "19-2-cache-locality",
+      "body": "Vector:\n\n```cpp\nstd::vector<double> prices;\n```\n\nElements are contiguous. Great for scanning.\n\nList:\n\n```cpp\nstd::list<double> prices;\n```\n\nNodes may be scattered. Poor cache locality.",
+      "tags": [
+        "performance",
+        "memory"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c19-3",
+      "moduleId": "m19",
+      "moduleTitle": "Memory layout and performance",
+      "moduleNumber": 19,
+      "number": "19.3",
+      "title": "Allocation cost",
+      "slug": "19-3-allocation-cost",
+      "body": "Heap allocations are relatively expensive and can cause fragmentation/contention.\n\nBad hot path:\n\n```cpp\nvoid on_tick(const Tick& tick) {\n    std::vector<double> tmp;\n    tmp.push_back(tick.price);\n}\n```\n\nBetter:\n\n```cpp\nclass Processor {\npublic:\n    Processor() { tmp_.reserve(1024); }\n\n    void on_tick(const Tick& tick) {\n        tmp_.clear();\n        tmp_.push_back(tick.price);\n    }\n\nprivate:\n    std::vector<double> tmp_;\n};\n```\n\nBest may be avoiding temporary allocation entirely.",
+      "tags": [
+        "performance",
+        "memory"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c19-4",
+      "moduleId": "m19",
+      "moduleTitle": "Memory layout and performance",
+      "moduleNumber": 19,
+      "number": "19.4",
+      "title": "AoS vs SoA",
+      "slug": "19-4-aos-vs-soa",
+      "body": "Array of structs:\n\n```cpp\nstruct Tick {\n    double bid;\n    double ask;\n    std::int64_t ts;\n};\nstd::vector<Tick> ticks;\n```\n\nGood when processing whole records.\n\nStruct of arrays:\n\n```cpp\nstruct TickColumns {\n    std::vector<double> bids;\n    std::vector<double> asks;\n    std::vector<std::int64_t> timestamps;\n};\n```\n\nGood when scanning one column.",
+      "tags": [
+        "performance",
+        "memory"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c19-5",
+      "moduleId": "m19",
+      "moduleTitle": "Memory layout and performance",
+      "moduleNumber": 19,
+      "number": "19.5",
+      "title": "False sharing",
+      "slug": "19-5-false-sharing",
+      "body": "False sharing occurs when threads update different variables on the same cache line.\n\n```cpp\nstruct alignas(64) Counter {\n    std::atomic<std::uint64_t> value{0};\n};\n```\n\nUseful for per-thread counters.",
+      "tags": [
+        "performance",
+        "memory"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c19-6",
+      "moduleId": "m19",
+      "moduleTitle": "Memory layout and performance",
+      "moduleNumber": 19,
+      "number": "19.6",
+      "title": "Profiling",
+      "slug": "19-6-profiling",
+      "body": "Do not optimize blindly.\n\nProcess:\n\n1. Write correct code.\n2. Add tests.\n3. Profile.\n4. Identify bottleneck.\n5. Optimize measured bottleneck.\n6. Re-measure.",
+      "tags": [
+        "performance",
+        "memory"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c19-7",
+      "moduleId": "m19",
+      "moduleTitle": "Memory layout and performance",
+      "moduleNumber": 19,
+      "number": "19.7",
+      "title": "Interview questions",
+      "slug": "19-7-interview-questions",
+      "body": "### Q: Why is vector faster than list in many cases?\n\nAnswer:\n\n> Vector stores elements contiguously, so iteration benefits from cache locality and prefetching. List requires pointer chasing and separate allocations. Even if list has better asymptotic insertion complexity, vector often wins in real workloads.\n\n### Q: What is false sharing?\n\nAnswer:\n\n> False sharing happens when different threads update different variables that occupy the same cache line. The cache line bounces between cores, causing performance degradation even though the variables are logically independent.\n\n### Q: How do you optimize C++ code?\n\nAnswer:\n\n> First ensure correctness, then profile. Common optimizations include reducing allocations, improving data locality, reserving capacity, avoiding unnecessary copies, reducing lock contention, and selecting better algorithms or data structures.\n\n---",
+      "tags": [
+        "performance",
+        "memory"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c20-1",
+      "moduleId": "m20",
+      "moduleTitle": "Numerical C++ for quant roles",
+      "moduleNumber": 20,
+      "number": "20.1",
+      "title": "`double` vs `float`",
+      "slug": "20-1-double-vs-float",
+      "body": "Quant finance generally uses `double` for pricing, risk, and simulation.\n\nUse `float` when:\n\n- Memory bandwidth matters more than precision\n- GPU/ML workloads\n- Precision requirements are lower",
+      "tags": [
+        "quant"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c20-2",
+      "moduleId": "m20",
+      "moduleTitle": "Numerical C++ for quant roles",
+      "moduleNumber": 20,
+      "number": "20.2",
+      "title": "Floating-point equality",
+      "slug": "20-2-floating-point-equality",
+      "body": "Avoid direct equality for computed values.\n\n```cpp\nbool almost_equal(double a, double b) {\n    double abs_eps = 1e-12;\n    double rel_eps = 1e-12;\n    double diff = std::abs(a - b);\n    return diff <= abs_eps || diff <= rel_eps * std::max(std::abs(a), std::abs(b));\n}\n```",
+      "tags": [
+        "quant"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c20-3",
+      "moduleId": "m20",
+      "moduleTitle": "Numerical C++ for quant roles",
+      "moduleNumber": 20,
+      "number": "20.3",
+      "title": "NaN and infinity",
+      "slug": "20-3-nan-and-infinity",
+      "body": "```cpp\ndouble x = std::numeric_limits<double>::quiet_NaN();\nstd::isnan(x); // true\n```\n\nNaN is not equal to itself.\n\n```cpp\nx == x // false if x is NaN\n```",
+      "tags": [
+        "quant"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c20-4",
+      "moduleId": "m20",
+      "moduleTitle": "Numerical C++ for quant roles",
+      "moduleNumber": 20,
+      "number": "20.4",
+      "title": "Integer price ticks",
+      "slug": "20-4-integer-price-ticks",
+      "body": "Do not use double for order book price levels.\n\nUse integer ticks:\n\n```cpp\nusing PriceTicks = std::int64_t;\nPriceTicks price = 10125; // e.g. cents or ticks\n```\n\nWhy?\n\n- Exact comparison\n- Stable map keys\n- No rounding surprises",
+      "tags": [
+        "quant"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c20-5",
+      "moduleId": "m20",
+      "moduleTitle": "Numerical C++ for quant roles",
+      "moduleNumber": 20,
+      "number": "20.5",
+      "title": "Random number generation",
+      "slug": "20-5-random-number-generation",
+      "body": "Do not use `rand()`.\n\n```cpp\nstd::mt19937_64 rng(42);\nstd::normal_distribution<double> normal(0.0, 1.0);\n\ndouble z = normal(rng);\n```\n\nSeparate engine from distribution.",
+      "tags": [
+        "quant"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c20-6",
+      "moduleId": "m20",
+      "moduleTitle": "Numerical C++ for quant roles",
+      "moduleNumber": 20,
+      "number": "20.6",
+      "title": "Monte Carlo structure",
+      "slug": "20-6-monte-carlo-structure",
+      "body": "```cpp\ntemplate <typename Payoff>\ndouble monte_carlo(std::size_t n, Payoff payoff) {\n    std::mt19937_64 rng(42);\n    std::normal_distribution<double> normal(0.0, 1.0);\n\n    double sum = 0.0;\n    for (std::size_t i = 0; i < n; ++i) {\n        double z = normal(rng);\n        sum += payoff(z);\n    }\n    return sum / static_cast<double>(n);\n}\n```",
+      "tags": [
+        "quant"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c20-7",
+      "moduleId": "m20",
+      "moduleTitle": "Numerical C++ for quant roles",
+      "moduleNumber": 20,
+      "number": "20.7",
+      "title": "Interview questions",
+      "slug": "20-7-interview-questions",
+      "body": "### Q: Why use integer ticks for prices?\n\nAnswer:\n\n> Order books need exact price-level comparison and equality. Floating-point representation can introduce rounding errors. Integer ticks or scaled integers represent prices exactly and are standard in trading systems.\n\n### Q: How do you compare doubles?\n\nAnswer:\n\n> For computed floating-point values, use absolute and relative tolerances. Direct equality is usually unsafe except for values that are exactly assigned or used as sentinels.\n\n### Q: How do you seed Monte Carlo simulations?\n\nAnswer:\n\n> Use deterministic seeds for reproducible tests and research. For production or independent runs, manage seeds carefully to avoid accidental correlation. Each thread should usually have its own RNG engine.\n\n---",
+      "tags": [
+        "quant"
+      ],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "c21-1",
+      "moduleId": "m21",
+      "moduleTitle": "CSV-to-columnar design",
+      "moduleNumber": 21,
+      "number": "21.1",
+      "title": "What this tests",
+      "slug": "21-1-what-this-tests",
+      "body": "This tests:\n\n- File reading\n- Parsing\n- Memory layout\n- Type conversion\n- Error handling\n- Performance reasoning",
+      "tags": [
+        "quant"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c21-2",
+      "moduleId": "m21",
+      "moduleTitle": "CSV-to-columnar design",
+      "moduleNumber": 21,
+      "number": "21.2",
+      "title": "Row-oriented storage",
+      "slug": "21-2-row-oriented-storage",
+      "body": "```cpp\nstd::vector<std::vector<std::string>> rows;\n```\n\nSimple, but inefficient for analytics.",
+      "tags": [
+        "quant"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c21-3",
+      "moduleId": "m21",
+      "moduleTitle": "CSV-to-columnar design",
+      "moduleNumber": 21,
+      "number": "21.3",
+      "title": "Columnar storage",
+      "slug": "21-3-columnar-storage",
+      "body": "```cpp\nstruct Table {\n    std::vector<std::string> names;\n    std::vector<std::vector<std::string>> columns;\n};\n```\n\nTyped columns:\n\n```cpp\nusing Column = std::variant<\n    std::vector<std::int64_t>,\n    std::vector<double>,\n    std::vector<std::string>\n>;\n\nstruct TypedTable {\n    std::vector<std::string> names;\n    std::vector<Column> columns;\n};\n```",
+      "tags": [
+        "quant"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c21-4",
+      "moduleId": "m21",
+      "moduleTitle": "CSV-to-columnar design",
+      "moduleNumber": 21,
+      "number": "21.4",
+      "title": "Why columnar helps",
+      "slug": "21-4-why-columnar-helps",
+      "body": "If you only need the `price` column, columnar storage lets you scan only price values contiguously.\n\nThis improves:\n\n- Cache locality\n- Vectorization potential\n- Compression potential\n- Analytical query speed",
+      "tags": [
+        "quant"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c21-5",
+      "moduleId": "m21",
+      "moduleTitle": "CSV-to-columnar design",
+      "moduleNumber": 21,
+      "number": "21.5",
+      "title": "Parsing edge cases",
+      "slug": "21-5-parsing-edge-cases",
+      "body": "A real CSV parser must handle:\n\n- Quoted commas\n- Escaped quotes\n- Empty fields\n- Missing fields\n- Extra fields\n- Type conversion errors\n- Very large files\n- Different line endings",
+      "tags": [
+        "quant"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c21-6",
+      "moduleId": "m21",
+      "moduleTitle": "CSV-to-columnar design",
+      "moduleNumber": 21,
+      "number": "21.6",
+      "title": "Interview answer",
+      "slug": "21-6-interview-answer",
+      "body": "### Q: How would you convert CSV to columnar format?\n\nAnswer:\n\n> I would read the header to identify columns, determine or infer column types, allocate one vector per column, then parse each row and append each value to its corresponding column. For large files, I would process in chunks and avoid storing every field as a temporary string. I would handle quoted fields, missing values, and conversion errors explicitly. Columnar storage is better for analytics because each column is contiguous and can be scanned independently.\n\n### Follow-up: How would you make it faster?\n\nAnswer:\n\n> Reserve memory when row count is known, parse using `string_view` over a buffer where safe, store numeric values directly in typed vectors, process chunks, avoid per-field allocations, and potentially memory-map the file for large inputs.\n\n---",
+      "tags": [
+        "quant"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c22-1",
+      "moduleId": "m22",
+      "moduleTitle": "Order book design in C++",
+      "moduleNumber": 22,
+      "number": "22.1",
+      "title": "Requirements",
+      "slug": "22-1-requirements",
+      "body": "An order book supports:\n\n- Add limit order\n- Cancel order\n- Modify order\n- Match incoming order\n- Query best bid/ask\n- Preserve price-time priority",
+      "tags": [
+        "quant"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c22-2",
+      "moduleId": "m22",
+      "moduleTitle": "Order book design in C++",
+      "moduleNumber": 22,
+      "number": "22.2",
+      "title": "Types",
+      "slug": "22-2-types",
+      "body": "```cpp\nusing OrderId = std::uint64_t;\nusing Price = std::int64_t;\nusing Quantity = std::int64_t;\n\nenum class Side { Buy, Sell };\n```\n\nUse integer price ticks.",
+      "tags": [
+        "quant"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c22-3",
+      "moduleId": "m22",
+      "moduleTitle": "Order book design in C++",
+      "moduleNumber": 22,
+      "number": "22.3",
+      "title": "Basic order",
+      "slug": "22-3-basic-order",
+      "body": "```cpp\nstruct Order {\n    OrderId id;\n    Side side;\n    Price price;\n    Quantity qty;\n};\n```",
+      "tags": [
+        "quant"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c22-4",
+      "moduleId": "m22",
+      "moduleTitle": "Order book design in C++",
+      "moduleNumber": 22,
+      "number": "22.4",
+      "title": "Price levels",
+      "slug": "22-4-price-levels",
+      "body": "```cpp\nstruct PriceLevel {\n    Price price;\n    std::list<Order> orders;\n    Quantity total_qty = 0;\n};\n```\n\nWhy `list` here?\n\nNormally vector is preferred, but order books often need stable iterators for cancellation. A list can make sense inside price levels.",
+      "tags": [
+        "quant"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c22-5",
+      "moduleId": "m22",
+      "moduleTitle": "Order book design in C++",
+      "moduleNumber": 22,
+      "number": "22.5",
+      "title": "Maps for price levels",
+      "slug": "22-5-maps-for-price-levels",
+      "body": "```cpp\nstd::map<Price, PriceLevel, std::greater<Price>> bids;\nstd::map<Price, PriceLevel> asks;\n```\n\n- Bids descending: highest bid first.\n- Asks ascending: lowest ask first.",
+      "tags": [
+        "stl",
+        "quant"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c22-6",
+      "moduleId": "m22",
+      "moduleTitle": "Order book design in C++",
+      "moduleNumber": 22,
+      "number": "22.6",
+      "title": "ID lookup for cancellation",
+      "slug": "22-6-id-lookup-for-cancellation",
+      "body": "```cpp\nstruct OrderLocation {\n    Side side;\n    Price price;\n    std::list<Order>::iterator it;\n};\n\nstd::unordered_map<OrderId, OrderLocation> by_id;\n```\n\nThis lets you find an order quickly by ID.",
+      "tags": [
+        "quant"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c22-7",
+      "moduleId": "m22",
+      "moduleTitle": "Order book design in C++",
+      "moduleNumber": 22,
+      "number": "22.7",
+      "title": "Interview answer",
+      "slug": "22-7-interview-answer",
+      "body": "### Q: How would you design an order book?\n\nAnswer:\n\n> I would store bid price levels in a descending ordered map and ask price levels in an ascending ordered map. Each price level stores a FIFO queue of orders to maintain price-time priority. I would also maintain an unordered map from order ID to location for fast cancellation. Prices should be integer ticks, not doubles. For production, I would consider object pools and intrusive lists to reduce allocation overhead.\n\n### Follow-up: Why not a heap?\n\nAnswer:\n\n> A heap gives fast best-price access, but arbitrary cancellation and modification are awkward. An order book needs fast lookup by order ID and stable management of price levels, so map plus ID lookup is more flexible.\n\n### Follow-up: What are the bottlenecks?\n\nAnswer:\n\n> Allocations, cache misses from node-based structures, cancellation lookup, and lock contention if multi-threaded. Production systems often use custom memory pools, intrusive lists, and single-thread ownership per book.\n\n---",
+      "tags": [
+        "quant"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c23-1",
+      "moduleId": "m23",
+      "moduleTitle": "Trading-system design in C++",
+      "moduleNumber": 23,
+      "number": "23.1",
+      "title": "Components",
+      "slug": "23-1-components",
+      "body": "A trading system may include:\n\n- Market data handler\n- Strategy engine\n- Risk engine\n- Order manager\n- Execution gateway\n- Position manager\n- Audit log\n- Monitoring\n- Replay/backtest engine",
+      "tags": [
+        "quant"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c23-2",
+      "moduleId": "m23",
+      "moduleTitle": "Trading-system design in C++",
+      "moduleNumber": 23,
+      "number": "23.2",
+      "title": "State machines",
+      "slug": "23-2-state-machines",
+      "body": "Orders should have explicit states.\n\n```cpp\nenum class OrderState {\n    Created,\n    RiskChecked,\n    Sent,\n    Acknowledged,\n    PartiallyFilled,\n    Filled,\n    CancelRequested,\n    Cancelled,\n    Rejected\n};\n```\n\nExplicit states prevent inconsistent boolean combinations.",
+      "tags": [
+        "quant"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c23-3",
+      "moduleId": "m23",
+      "moduleTitle": "Trading-system design in C++",
+      "moduleNumber": 23,
+      "number": "23.3",
+      "title": "Consistency",
+      "slug": "23-3-consistency",
+      "body": "Avoid partial updates.\n\nBad:\n\n```cpp\npositions.update(order);\ngateway.send(order);\n```\n\nIf send fails, position state may be wrong.\n\nBetter:\n\n- Validate order.\n- Reserve risk capacity.\n- Send order.\n- Update state based on acknowledgments/fills.\n- Record events for replay.",
+      "tags": [
+        "quant"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c23-4",
+      "moduleId": "m23",
+      "moduleTitle": "Trading-system design in C++",
+      "moduleNumber": 23,
+      "number": "23.4",
+      "title": "Threading model",
+      "slug": "23-4-threading-model",
+      "body": "Prefer ownership of mutable state by one thread/component when possible.\n\nExample:\n\n- Market data thread receives data.\n- Strategy thread processes events.\n- Order manager owns order states.\n- Components communicate via queues.\n\nThis reduces shared mutable state.",
+      "tags": [
+        "concurrency",
+        "quant"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c23-5",
+      "moduleId": "m23",
+      "moduleTitle": "Trading-system design in C++",
+      "moduleNumber": 23,
+      "number": "23.5",
+      "title": "Interview answer",
+      "slug": "23-5-interview-answer",
+      "body": "### Q: How would you design a trading system?\n\nAnswer:\n\n> I would separate market data, strategy, risk, order management, execution, and persistence. Orders would be represented by explicit state machines. Mutable state should have clear ownership, often through event loops or queues rather than shared locks. In C++, I would use RAII for resources, integer price types, bounded queues, minimal allocations in hot paths, and append-only logs for replay and recovery.\n\n### Follow-up: How ensure atomicity and consistency?\n\nAnswer:\n\n> Use explicit state transitions, avoid partial updates, validate before committing, log important events, and ensure that each state change is owned by one thread or protected by synchronization. External messages should be idempotent where possible.\n\n---",
+      "tags": [
+        "quant"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c24-1",
+      "moduleId": "m24",
+      "moduleTitle": "Build systems, linking, and ODR",
+      "moduleNumber": 24,
+      "number": "24.1",
+      "title": "Compile vs link errors",
+      "slug": "24-1-compile-vs-link-errors",
+      "body": "Compile error:\n\n```cpp\nint x = \"hello\"; // type error\n```\n\nLink error:\n\n```cpp\nvoid f();\nint main() { f(); }\n// f declared but never defined\n```",
+      "tags": [],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c24-2",
+      "moduleId": "m24",
+      "moduleTitle": "Build systems, linking, and ODR",
+      "moduleNumber": 24,
+      "number": "24.2",
+      "title": "Include guards",
+      "slug": "24-2-include-guards",
+      "body": "```cpp\n#pragma once\n```\n\nPrevents multiple inclusion of the same header.",
+      "tags": [],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c24-3",
+      "moduleId": "m24",
+      "moduleTitle": "Build systems, linking, and ODR",
+      "moduleNumber": 24,
+      "number": "24.3",
+      "title": "One Definition Rule",
+      "slug": "24-3-one-definition-rule",
+      "body": "Do not define non-inline globals in headers.\n\nBad:\n\n```cpp\n// config.h\nint global_counter = 0;\n```\n\nGood:\n\n```cpp\n// config.h\nextern int global_counter;\n```\n\n```cpp\n// config.cpp\nint global_counter = 0;\n```",
+      "tags": [],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c24-4",
+      "moduleId": "m24",
+      "moduleTitle": "Build systems, linking, and ODR",
+      "moduleNumber": 24,
+      "number": "24.4",
+      "title": "Interview questions",
+      "slug": "24-4-interview-questions",
+      "body": "### Q: What is the One Definition Rule?\n\nAnswer:\n\n> The One Definition Rule says that entities like functions and variables should have exactly one definition in the program, with exceptions for templates and inline functions. Violating it can cause linker errors or undefined behavior.\n\n### Q: Why define templates in headers?\n\nAnswer:\n\n> The compiler needs the template definition available when instantiating it for a specific type. Therefore, template definitions are usually placed in headers.\n\n---",
+      "tags": [],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c25-1",
+      "moduleId": "m25",
+      "moduleTitle": "Testing and debugging C++",
+      "moduleNumber": 25,
+      "number": "25.1",
+      "title": "Why testing C++ is different",
+      "slug": "25-1-why-testing-c-is-different",
+      "body": "C++ can have memory bugs that do not appear immediately. You need tests plus tools.",
+      "tags": [],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c25-2",
+      "moduleId": "m25",
+      "moduleTitle": "Testing and debugging C++",
+      "moduleNumber": 25,
+      "number": "25.2",
+      "title": "Sanitizers",
+      "slug": "25-2-sanitizers",
+      "body": "AddressSanitizer:\n\n```bash\n-fsanitize=address -g -fno-omit-frame-pointer\n```\n\nFinds:\n\n- Use-after-free\n- Out-of-bounds access\n- Some stack bugs\n\nUndefinedBehaviorSanitizer:\n\n```bash\n-fsanitize=undefined -g\n```\n\nThreadSanitizer:\n\n```bash\n-fsanitize=thread -g\n```\n\nFinds data races.",
+      "tags": [],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c25-3",
+      "moduleId": "m25",
+      "moduleTitle": "Testing and debugging C++",
+      "moduleNumber": 25,
+      "number": "25.3",
+      "title": "Invariant testing",
+      "slug": "25-3-invariant-testing",
+      "body": "For order book:\n\n- Best bid is highest bid.\n- Best ask is lowest ask.\n- ID map matches actual orders.\n- Quantities are consistent.\n\nFor hash table:\n\n- Inserted keys are findable.\n- Deleted keys are absent.\n- Rehash preserves entries.\n\nFor concurrency:\n\n- No lost updates.\n- No data races.\n- No deadlocks.",
+      "tags": [],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c25-4",
+      "moduleId": "m25",
+      "moduleTitle": "Testing and debugging C++",
+      "moduleNumber": 25,
+      "number": "25.4",
+      "title": "Interview questions",
+      "slug": "25-4-interview-questions",
+      "body": "### Q: How would you test an order book?\n\nAnswer:\n\n> I would test simple add/cancel/match cases, edge cases like empty book and partial fills, and invariants after every operation. I would add randomized tests against a simple reference model and replay tests from recorded events. I would also run sanitizers to catch memory and threading bugs.\n\n### Q: How do you find memory bugs?\n\nAnswer:\n\n> Use AddressSanitizer, UndefinedBehaviorSanitizer, and careful ownership design. Prefer RAII and standard containers to avoid manual memory management bugs.\n\n---",
+      "tags": [],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c26-1",
+      "moduleId": "m26",
+      "moduleTitle": "High-yield interview question bank with expanded answers",
+      "moduleNumber": 26,
+      "number": "26.1",
+      "title": "Core language",
+      "slug": "26-1-core-language",
+      "body": "### Q: What is stack vs heap?\n\nAnswer:\n\n> Stack usually refers to automatic storage for local variables whose lifetime is tied to scope. Heap refers to dynamic storage allocated at runtime. Stack allocation is fast and automatically cleaned up. Heap allocation is flexible but has allocation overhead and requires ownership management. In modern C++, heap memory should usually be owned by containers or smart pointers.\n\nFollow-up:\n\n> Is a vector stored on stack or heap?\n\nAnswer:\n\n> The vector object itself can be on the stack if local, but its elements are usually stored in heap memory owned by the vector.\n\n### Q: What is RAII?\n\nAnswer:\n\n> RAII means Resource Acquisition Is Initialization. A resource is acquired in a constructor and released in a destructor. It gives automatic cleanup and exception safety. Examples are `vector`, `unique_ptr`, `lock_guard`, and file streams.\n\n### Q: What is undefined behavior?\n\nAnswer:\n\n> Undefined behavior means the C++ standard gives no meaning to the program. The compiler may assume it never occurs. Examples include out-of-bounds access, null dereference, dangling references, data races, and signed overflow.",
+      "tags": [],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c26-2",
+      "moduleId": "m26",
+      "moduleTitle": "High-yield interview question bank with expanded answers",
+      "moduleNumber": 26,
+      "number": "26.2",
+      "title": "Ownership",
+      "slug": "26-2-ownership",
+      "body": "### Q: How do you decide between value, reference, pointer, and smart pointer?\n\nAnswer:\n\n> If the object is small or ownership should be local, use value. For read-only large objects, use `const&`. For required mutation, use non-const reference. For optional non-owning access, use pointer. For exclusive ownership, use `unique_ptr`. For shared lifetime ownership, use `shared_ptr`, but only when necessary.\n\n### Q: Why avoid shared_ptr by default?\n\nAnswer:\n\n> `shared_ptr` adds reference-count overhead, can create cycles, and makes ownership less clear. `unique_ptr` or value ownership is usually simpler and better unless shared ownership is truly required.",
+      "tags": [],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c26-3",
+      "moduleId": "m26",
+      "moduleTitle": "High-yield interview question bank with expanded answers",
+      "moduleNumber": 26,
+      "number": "26.3",
+      "title": "Move semantics",
+      "slug": "26-3-move-semantics",
+      "body": "### Q: What is a moved-from object?\n\nAnswer:\n\n> A moved-from object is still valid and destructible, but its value is unspecified unless documented. You can assign a new value to it or destroy it, but should not rely on its previous contents.\n\n### Q: Why return by value?\n\nAnswer:\n\n> Return by value is usually efficient in modern C++ due to copy elision and move semantics. It also avoids dangling references and gives clear ownership to the caller.",
+      "tags": [
+        "move-semantics"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c26-4",
+      "moduleId": "m26",
+      "moduleTitle": "High-yield interview question bank with expanded answers",
+      "moduleNumber": 26,
+      "number": "26.4",
+      "title": "STL",
+      "slug": "26-4-stl",
+      "body": "### Q: Why is vector default container?\n\nAnswer:\n\n> It is simple, contiguous, cache-friendly, supports random access, and has amortized O(1) append. In many real workloads, its memory locality beats node-based containers.\n\n### Q: When use list?\n\nAnswer:\n\n> When you need stable iterators and frequent O(1) insertion/removal given an iterator. Even then, consider whether deque, vector with indices, or another design may be better.",
+      "tags": [
+        "stl"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c26-5",
+      "moduleId": "m26",
+      "moduleTitle": "High-yield interview question bank with expanded answers",
+      "moduleNumber": 26,
+      "number": "26.5",
+      "title": "Templates",
+      "slug": "26-5-templates",
+      "body": "### Q: Why can templates cause code bloat?\n\nAnswer:\n\n> The compiler may instantiate separate code for each type used with a template. This can increase binary size, especially for large template functions used with many types.",
+      "tags": [
+        "templates"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c26-6",
+      "moduleId": "m26",
+      "moduleTitle": "High-yield interview question bank with expanded answers",
+      "moduleNumber": 26,
+      "number": "26.6",
+      "title": "Concurrency",
+      "slug": "26-6-concurrency",
+      "body": "### Q: What is spurious wakeup?\n\nAnswer:\n\n> A condition variable wait may wake up even if no notification occurred or the condition is not true. Therefore, always wait with a predicate or loop.\n\n### Q: Why avoid holding locks while calling unknown code?\n\nAnswer:\n\n> Unknown code may try to acquire another lock, call back into your object, block for a long time, or throw. This can cause deadlocks, latency spikes, or inconsistent state.",
+      "tags": [],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c26-7",
+      "moduleId": "m26",
+      "moduleTitle": "High-yield interview question bank with expanded answers",
+      "moduleNumber": 26,
+      "number": "26.7",
+      "title": "Performance",
+      "slug": "26-7-performance",
+      "body": "### Q: Why profile before optimizing?\n\nAnswer:\n\n> Human intuition about bottlenecks is often wrong. Profiling identifies the actual hot path. Optimizing non-bottlenecks adds complexity without improving performance.\n\n---",
+      "tags": [
+        "performance"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c30-1",
+      "moduleId": "m30",
+      "moduleTitle": "C++26 direction: coroutines, async, and `std::execution`",
+      "moduleNumber": 30,
+      "number": "30.1",
+      "title": "Synchronous vs concurrent vs parallel vs asynchronous",
+      "slug": "30-1-synchronous-vs-concurrent-vs-parallel-vs-asynchronous",
+      "body": "These words are often confused.\n\n### Synchronous\n\nSynchronous code runs one step after another. The caller waits until the operation finishes.\n\n```cpp\nauto data = read_file(\"prices.csv\");\nauto result = compute(data);\n```\n\n`compute` starts only after `read_file` finishes.\n\n### Concurrent\n\nConcurrent means multiple tasks are in progress during the same time period. They may or may not be literally running at the same instant.\n\nExample:\n\n- One task waits for network data.\n- Another task processes previous data.\n\n### Parallel\n\nParallel means multiple tasks are literally executing at the same time on different cores or execution units.\n\nExample:\n\n```cpp\n// Conceptually parallel work\ncompute_risk_for_book_1();\ncompute_risk_for_book_2();\n```\n\nIf these run on two CPU cores simultaneously, they are parallel.\n\n### Asynchronous\n\nAsynchronous means the caller starts an operation and does not block waiting for it immediately. The result arrives later through a callback, future, coroutine continuation, receiver, or event loop.\n\nExample idea:\n\n```cpp\nstart_read(socket, callback_when_done);\n```\n\nThe program can do other work while the read is pending.\n\n### Interview answer\n\n> Synchronous code blocks until work completes. Concurrent code has multiple tasks in progress. Parallel code executes tasks simultaneously, usually on multiple cores. Asynchronous code starts work and receives completion later without necessarily blocking the caller. Async is about non-blocking structure; parallelism is about simultaneous execution.\n\n---",
+      "tags": [
+        "coroutines",
+        "cxx26"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c30-2",
+      "moduleId": "m30",
+      "moduleTitle": "C++26 direction: coroutines, async, and `std::execution`",
+      "moduleNumber": 30,
+      "number": "30.2",
+      "title": "Old C++ async: `std::async`, `std::future`, and `std::promise`",
+      "slug": "30-2-old-c-async-std-async-std-future-and-std-promise",
+      "body": "Before C++26 `std::execution`, standard C++ had `std::async`, `std::future`, and `std::promise`.\n\n### `std::async`\n\n```cpp\n#include <future>\n#include <iostream>\n\nint compute() {\n    return 42;\n}\n\nint main() {\n    std::future<int> fut = std::async(std::launch::async, compute);\n\n    // do other work\n\n    int result = fut.get(); // blocks until result is ready\n    std::cout << result << '\n';\n}\n```\n\n### What happens?\n\n- `std::async` starts a task.\n- It returns a `std::future<int>`.\n- `future.get()` waits for the task and returns the result.\n\n### Problem: launch policy\n\n```cpp\nstd::async(compute);\n```\n\nWithout explicit policy, implementation may choose async or deferred execution.\n\nUse:\n\n```cpp\nstd::async(std::launch::async, compute);\n```\n\nif you really want asynchronous execution.\n\n### `std::future` limitation\n\n`std::future` is useful but limited:\n\n- Usually one-shot result retrieval.\n- Poor composition.\n- No built-in continuation chaining in standard C++.\n- Cancellation is not naturally integrated.\n- Execution location is not always explicit.\n- It does not form a general async graph abstraction.\n\nThis is one reason C++26 `std::execution` matters.\n\n### `std::promise`\n\nA promise lets one part of code set a result while another waits through a future.\n\n```cpp\n#include <future>\n#include <thread>\n#include <iostream>\n\nint main() {\n    std::promise<int> promise;\n    std::future<int> future = promise.get_future();\n\n    std::thread worker([p = std::move(promise)]() mutable {\n        p.set_value(123);\n    });\n\n    std::cout << future.get() << '\n';\n    worker.join();\n}\n```\n\n### Interview answer\n\n> `std::async` and `std::future` are older standard tools for launching work and retrieving results. They are simple but not very composable. Futures represent one eventual result, but standard futures do not naturally express complex async pipelines, cancellation, execution resources, or continuation graphs. C++26 `std::execution` addresses these limitations with senders, receivers, and schedulers.\n\n---",
+      "tags": [
+        "coroutines",
+        "cxx26"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c30-3",
+      "moduleId": "m30",
+      "moduleTitle": "C++26 direction: coroutines, async, and `std::execution`",
+      "moduleNumber": 30,
+      "number": "30.3",
+      "title": "What is a coroutine?",
+      "slug": "30-3-what-is-a-coroutine",
+      "body": "A coroutine is a function that can suspend and later resume execution.\n\nA function becomes a coroutine if it contains one of:\n\n```cpp\nco_await\nco_yield\nco_return\n```\n\nMental model:\n\n> A normal function has one entry and runs until it returns. A coroutine can pause in the middle, return control to its caller, and later continue from where it paused.\n\nCoroutines are useful for:\n\n- Async I/O\n- Lazy generators\n- Pipelines\n- Event-driven systems\n- State machines that would otherwise require callbacks\n\n### Normal function\n\n```cpp\nint f() {\n    return 42;\n}\n```\n\nRuns to completion.\n\n### Coroutine-like idea\n\n```cpp\ntask<int> f() {\n    co_await something_async();\n    co_return 42;\n}\n```\n\nThis can suspend while waiting.\n\n---",
+      "tags": [
+        "coroutines",
+        "cxx26"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c30-4",
+      "moduleId": "m30",
+      "moduleTitle": "C++26 direction: coroutines, async, and `std::execution`",
+      "moduleNumber": 30,
+      "number": "30.4",
+      "title": "Coroutines are stackless",
+      "slug": "30-4-coroutines-are-stackless",
+      "body": "C++ coroutines are **stackless**.\n\nThat means when a coroutine suspends, it does not keep an entire thread stack alive. Instead, the compiler stores the coroutine state in a **coroutine frame**.\n\nThe coroutine frame contains things like:\n\n- Local variables that must survive suspension\n- Current suspension point\n- Promise object\n- Bookkeeping needed to resume/destroy the coroutine\n\nExample:\n\n```cpp\ntask<int> example() {\n    int x = 10;\n    co_await some_async_operation();\n    co_return x + 1;\n}\n```\n\n`x` must survive across the `co_await`, so it lives in the coroutine frame.\n\n### Interview answer\n\n> C++ coroutines are stackless. When they suspend, they return control to the caller and store resumable state in a coroutine frame rather than preserving an entire call stack. This makes them useful for scalable async code, but the coroutine return type and promise type determine how suspension, resumption, and result delivery work.\n\n---",
+      "tags": [
+        "coroutines",
+        "cxx26"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c30-5",
+      "moduleId": "m30",
+      "moduleTitle": "C++26 direction: coroutines, async, and `std::execution`",
+      "moduleNumber": 30,
+      "number": "30.5",
+      "title": "The three coroutine keywords",
+      "slug": "30-5-the-three-coroutine-keywords",
+      "body": "## `co_return`\n\nCompletes a coroutine and returns a value through the coroutine's promise machinery.\n\n```cpp\ntask<int> compute_async() {\n    co_return 42;\n}\n```\n\nDo not use plain `return` in a coroutine.\n\n## `co_yield`\n\nProduces a value and suspends.\n\nUsed for generators.\n\n```cpp\ngenerator<int> count_up() {\n    for (int i = 0; ; ++i) {\n        co_yield i;\n    }\n}\n```\n\nThis can lazily produce values one at a time.\n\n## `co_await`\n\nSuspends until an awaitable operation completes.\n\n```cpp\ntask<void> handle_socket(Socket& socket) {\n    auto msg = co_await socket.async_read();\n    co_await socket.async_write(msg);\n}\n```\n\nThis looks sequential but can be non-blocking.\n\n### Interview answer\n\n> `co_return` completes a coroutine, `co_yield` produces a value and suspends, and `co_await` suspends until an awaitable operation is ready. The coroutine's return type defines the promise and await behavior.\n\n---",
+      "tags": [
+        "coroutines",
+        "cxx26"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c30-6",
+      "moduleId": "m30",
+      "moduleTitle": "C++26 direction: coroutines, async, and `std::execution`",
+      "moduleNumber": 30,
+      "number": "30.6",
+      "title": "Coroutine return types: why `task<int>` is not built into basic C++",
+      "slug": "30-6-coroutine-return-types-why-task-int-is-not-built-into-basic-c",
+      "body": "A beginner surprise:\n\n```cpp\nint f() {\n    co_return 42; // invalid\n}\n```\n\nA coroutine must return a type that satisfies coroutine requirements. The return type controls the coroutine behavior through a nested `promise_type`.\n\nExamples of coroutine return-type concepts:\n\n```cpp\ntask<int>       // async result\ngenerator<int>  // lazy sequence\n```\n\nThe C++ language provides coroutine machinery, but it does not magically provide every high-level async type you might want. Libraries define types like `task<T>`, `generator<T>`, or awaitable socket operations.\n\n### Interview answer\n\n> Coroutines are a language mechanism, not a complete async runtime by themselves. The coroutine return type defines how results, suspension, resumption, and destruction work. That is why libraries provide types like `task<T>` or `generator<T>`.\n\n---",
+      "tags": [
+        "coroutines",
+        "cxx26"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c30-7",
+      "moduleId": "m30",
+      "moduleTitle": "C++26 direction: coroutines, async, and `std::execution`",
+      "moduleNumber": 30,
+      "number": "30.7",
+      "title": "Coroutine frame, promise, awaiter: the intermediate mental model",
+      "slug": "30-7-coroutine-frame-promise-awaiter-the-intermediate-mental-model",
+      "body": "When the compiler sees a coroutine, it transforms it into a state machine.\n\nImportant pieces:\n\n1. **Coroutine frame**: stores state needed across suspension.\n2. **Promise object**: controls result production and coroutine behavior.\n3. **Coroutine handle**: low-level handle used to resume or destroy the coroutine.\n4. **Awaiter**: object that defines how `co_await` behaves.\n\n### Awaiter protocol\n\nAn awaiter can define:\n\n```cpp\nbool await_ready();\nvoid await_suspend(std::coroutine_handle<> h);\nauto await_resume();\n```\n\nMeaning:\n\n- `await_ready()` says whether suspension is needed.\n- `await_suspend()` runs when coroutine suspends.\n- `await_resume()` gives the result when coroutine resumes.\n\nVery simple conceptual awaiter:\n\n```cpp\n#include <coroutine>\n\nstruct AlwaysSuspend {\n    bool await_ready() const noexcept {\n        return false;\n    }\n\n    void await_suspend(std::coroutine_handle<>) const noexcept {\n        // control returns to caller\n    }\n\n    void await_resume() const noexcept {\n        // no result\n    }\n};\n```\n\n### Interview answer\n\n> A coroutine is lowered into a state machine. Its frame stores state across suspensions. The promise object defines how the coroutine returns values and handles completion. `co_await` uses an awaiter with `await_ready`, `await_suspend`, and `await_resume` to decide whether to suspend and what value to produce when resumed.\n\n---",
+      "tags": [
+        "coroutines",
+        "cxx26"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c30-8",
+      "moduleId": "m30",
+      "moduleTitle": "C++26 direction: coroutines, async, and `std::execution`",
+      "moduleNumber": 30,
+      "number": "30.8",
+      "title": "Coroutines vs threads",
+      "slug": "30-8-coroutines-vs-threads",
+      "body": "Coroutines are not threads.\n\n### Thread\n\nA thread has its own execution stack and may run in parallel with other threads.\n\n### Coroutine\n\nA coroutine is a suspendable computation. It only runs when resumed by some thread.\n\nA coroutine can make async code look sequential, but it does not automatically create parallelism.\n\n```cpp\ntask<void> f() {\n    co_await async_read();\n    co_await async_write();\n}\n```\n\nThis code can be non-blocking, but some event loop or scheduler must resume it.\n\n### Interview answer\n\n> A coroutine is not a thread. A coroutine is a suspendable function/state machine. It runs on a thread when resumed, but suspension does not block that thread. Threads provide execution resources; coroutines structure asynchronous control flow.\n\n---",
+      "tags": [
+        "coroutines",
+        "concurrency",
+        "cxx26"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c30-9",
+      "moduleId": "m30",
+      "moduleTitle": "C++26 direction: coroutines, async, and `std::execution`",
+      "moduleNumber": 30,
+      "number": "30.9",
+      "title": "Coroutines vs callbacks",
+      "slug": "30-9-coroutines-vs-callbacks",
+      "body": "Callback style:\n\n```cpp\nsocket.async_read([](Message msg) {\n    process(msg);\n    socket.async_write(response, [] {\n        // done\n    });\n});\n```\n\nCoroutine style:\n\n```cpp\ntask<void> handle(Socket& socket) {\n    Message msg = co_await socket.async_read();\n    process(msg);\n    co_await socket.async_write(response);\n}\n```\n\nCoroutines make async code look sequential, which improves readability and error handling.\n\n### Interview answer\n\n> Coroutines help avoid deeply nested callback code. They let asynchronous operations be written in direct style while still allowing suspension and resumption under the hood.\n\n---",
+      "tags": [
+        "coroutines",
+        "cxx26"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c30-10",
+      "moduleId": "m30",
+      "moduleTitle": "C++26 direction: coroutines, async, and `std::execution`",
+      "moduleNumber": 30,
+      "number": "30.10",
+      "title": "Coroutines vs `std::future`",
+      "slug": "30-10-coroutines-vs-std-future",
+      "body": "`std::future` represents a result that becomes available later.\n\nCoroutines are a way to write suspendable functions.\n\nThey solve different layers of the problem.\n\nA coroutine may return a future-like type, but standard `std::future` is not a great coroutine building block because it lacks continuation/composition features.\n\n### Interview answer\n\n> `std::future` is a one-shot result holder. A coroutine is a language feature for suspension and resumption. Coroutines can produce future-like objects, but the quality of the async model depends on the return type and scheduler. C++26 `std::execution` gives a more composable model than plain futures.\n\n---",
+      "tags": [
+        "coroutines",
+        "cxx26"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c30-11",
+      "moduleId": "m30",
+      "moduleTitle": "C++26 direction: coroutines, async, and `std::execution`",
+      "moduleNumber": 30,
+      "number": "30.11",
+      "title": "C++26 `std::execution`: why it matters",
+      "slug": "30-11-c-26-std-execution-why-it-matters",
+      "body": "C++26 introduces a standard execution-control model through `std::execution`.\n\nThe key abstractions are:\n\n1. **Scheduler**\n2. **Sender**\n3. **Receiver**\n4. **Operation state**\n\nThis model is also called **senders/receivers**.\n\nThe purpose is to provide a standard vocabulary for asynchronous and parallel work.\n\n### Why not just use `std::thread`?\n\n`std::thread` is low-level. It gives you a thread but not a composable async pipeline.\n\n### Why not just use `std::future`?\n\nStandard futures are hard to compose, do not naturally express cancellation, and do not clearly control where continuations execute.\n\n### Why `std::execution`?\n\nIt aims to make async work:\n\n- Composable\n- Generic over execution resources\n- Explicit about where work runs\n- Able to model success, error, and cancellation\n- Suitable for CPUs, thread pools, event loops, GPUs, and other execution resources\n\n### Interview answer\n\n> C++26 `std::execution` provides a standard model for asynchronous execution based on schedulers, senders, receivers, and operation states. It improves on older futures by making async work composable, explicit about execution context, and structured around value, error, and cancellation channels.\n\n---",
+      "tags": [
+        "coroutines",
+        "cxx26"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c30-12",
+      "moduleId": "m30",
+      "moduleTitle": "C++26 direction: coroutines, async, and `std::execution`",
+      "moduleNumber": 30,
+      "number": "30.12",
+      "title": "Scheduler",
+      "slug": "30-12-scheduler",
+      "body": "A scheduler is a lightweight handle to an execution resource.\n\nExecution resources could include:\n\n- Thread pool\n- Event loop\n- GPU stream\n- IO context\n- Custom low-latency executor\n\nConceptually:\n\n```cpp\nauto sched = pool.get_scheduler();\n```\n\nA scheduler can produce a sender that represents work scheduled on that resource.\n\n### Interview answer\n\n> A scheduler represents where work can run. It is a handle to an execution resource such as a thread pool, event loop, or GPU stream. In sender/receiver terminology, a scheduler can create senders that complete on that resource.\n\n---",
+      "tags": [
+        "coroutines",
+        "cxx26"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c30-13",
+      "moduleId": "m30",
+      "moduleTitle": "C++26 direction: coroutines, async, and `std::execution`",
+      "moduleNumber": 30,
+      "number": "30.13",
+      "title": "Sender",
+      "slug": "30-13-sender",
+      "body": "A sender describes asynchronous work.\n\nImportant: a sender is often **lazy**. Creating a sender usually does not start work.\n\nConceptual example:\n\n```cpp\nauto s = execution::just(42);\n```\n\nThis represents an operation that will complete with value `42` when connected and started.\n\nA sender can complete through one of three channels:\n\n1. Value/success\n2. Error/failure\n3. Stopped/canceled\n\n### Interview answer\n\n> A sender is a description of asynchronous work. It does not necessarily run immediately. It sends completion to a receiver through value, error, or stopped channels.\n\n---",
+      "tags": [
+        "coroutines",
+        "cxx26"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c30-14",
+      "moduleId": "m30",
+      "moduleTitle": "C++26 direction: coroutines, async, and `std::execution`",
+      "moduleNumber": 30,
+      "number": "30.14",
+      "title": "Receiver",
+      "slug": "30-14-receiver",
+      "body": "A receiver consumes the completion of a sender.\n\nIt handles:\n\n- Successful values\n- Errors\n- Cancellation/stopped signal\n\nConceptually:\n\n```cpp\nstruct MyReceiver {\n    void set_value(int x);\n    void set_error(std::exception_ptr e);\n    void set_stopped();\n};\n```\n\nThe exact standard APIs are more formal, but the mental model is:\n\n> Receiver is a generalized callback object with separate channels for success, error, and cancellation.\n\n### Interview answer\n\n> A receiver is the consumer side of an async operation. It receives completion signals: value for success, error for failure, and stopped for cancellation.\n\n---",
+      "tags": [
+        "coroutines",
+        "cxx26"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c30-15",
+      "moduleId": "m30",
+      "moduleTitle": "C++26 direction: coroutines, async, and `std::execution`",
+      "moduleNumber": 30,
+      "number": "30.15",
+      "title": "Operation state and `start`",
+      "slug": "30-15-operation-state-and-start",
+      "body": "A sender and receiver are connected to form an operation state.\n\nConceptually:\n\n```cpp\nauto op = execution::connect(sender, receiver);\nexecution::start(op);\n```\n\nKey point:\n\n> Work does not begin until the operation state is started.\n\nThe operation state contains the state needed by the asynchronous operation and must remain alive until the operation completes.\n\n### Interview answer\n\n> Connecting a sender and receiver produces an operation state. Starting the operation state begins the work. The operation state owns or contains the state needed for the asynchronous operation and must remain alive until completion.\n\n---",
+      "tags": [
+        "coroutines",
+        "cxx26"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c30-16",
+      "moduleId": "m30",
+      "moduleTitle": "C++26 direction: coroutines, async, and `std::execution`",
+      "moduleNumber": 30,
+      "number": "30.16",
+      "title": "Sender composition",
+      "slug": "30-16-sender-composition",
+      "body": "The power of senders is composition.\n\nConceptually, you can build pipelines:\n\n```cpp\nauto work = just(10)\n          | then([](int x) { return x + 1; })\n          | then([](int x) { return x * 2; });\n```\n\nThis describes a graph of work.\n\nFor quant systems, this could represent:\n\n```text\nread market data\n→ parse message\n→ normalize symbol\n→ update book\n→ run strategy\n→ send order candidate to risk\n```\n\nThe value is that execution context, error propagation, and cancellation can be modeled explicitly.\n\n### Interview answer\n\n> Sender algorithms let us compose async operations into pipelines or graphs. Instead of manually nesting callbacks or blocking on futures, we can describe the work and how completions flow through value, error, and stopped channels.\n\n---",
+      "tags": [
+        "coroutines",
+        "cxx26"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c30-17",
+      "moduleId": "m30",
+      "moduleTitle": "C++26 direction: coroutines, async, and `std::execution`",
+      "moduleNumber": 30,
+      "number": "30.17",
+      "title": "`run_loop`",
+      "slug": "30-17-run-loop",
+      "body": "C++26 includes `std::execution::run_loop`, an execution context with a manually driven event loop.\n\nMental model:\n\n```text\nqueue work\nrun loop pulls work\nexecute completions\n```\n\nThis matters because async work needs an execution resource. A run loop is one such resource.\n\nIn production quant systems, you may have custom event loops:\n\n- One loop per instrument group\n- One loop per gateway connection\n- One loop for market data handling\n- One loop for risk or persistence\n\n### Interview answer\n\n> A run loop is an execution context that owns a queue of work and executes it when driven. It is useful for event-driven systems and gives explicit control over where asynchronous completions run.\n\n---",
+      "tags": [
+        "coroutines",
+        "cxx26"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c30-18",
+      "moduleId": "m30",
+      "moduleTitle": "C++26 direction: coroutines, async, and `std::execution`",
+      "moduleNumber": 30,
+      "number": "30.18",
+      "title": "Coroutines and `std::execution` together",
+      "slug": "30-18-coroutines-and-std-execution-together",
+      "body": "Coroutines and senders/receivers are complementary.\n\n- Coroutines make asynchronous code look sequential.\n- Senders/receivers provide a composable execution model.\n\nA library can allow:\n\n```cpp\ntask<void> strategy_loop() {\n    auto tick = co_await next_tick_sender;\n    co_await risk_check_sender;\n}\n```\n\nThe coroutine uses `co_await`, while the underlying async operations may be represented as senders.\n\n### Interview answer\n\n> Coroutines are language-level syntax for suspension and resumption. `std::execution` is a library model for composing and scheduling asynchronous work. They can work together: senders can be made awaitable, and coroutines can provide a direct-style interface over sender-based async operations.\n\n---",
+      "tags": [
+        "coroutines",
+        "cxx26"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c30-19",
+      "moduleId": "m30",
+      "moduleTitle": "C++26 direction: coroutines, async, and `std::execution`",
+      "moduleNumber": 30,
+      "number": "30.19",
+      "title": "Async in quant systems",
+      "slug": "30-19-async-in-quant-systems",
+      "body": "Where async matters in quant C++:\n\n1. **Market data ingestion**\n   - Non-blocking socket reads\n   - Parsing messages as they arrive\n   - Avoiding blocked strategy loops\n\n2. **Order gateway**\n   - Send order\n   - Await acknowledgment\n   - Handle cancel/replace/fill asynchronously\n\n3. **Risk checks**\n   - Parallel or async pre-trade checks\n   - Avoid blocking market data processing\n\n4. **Backtesting**\n   - Async file reads\n   - Pipeline from disk → parser → simulator → metrics\n\n5. **Research systems**\n   - Parallel parameter sweeps\n   - Distributed simulation tasks\n   - Async result collection\n\n6. **Logging and persistence**\n   - Queue logs asynchronously\n   - Avoid blocking hot path on disk I/O\n\n### Example design: async market data pipeline\n\n```text\nsocket read sender\n→ parse sender\n→ normalize sender\n→ book update sender\n→ strategy sender\n→ risk sender\n→ order send sender\n```\n\nEach stage can have explicit execution context and error handling.\n\n### Interview answer\n\n> In quant systems, async is useful whenever waiting would block critical work: network I/O, file I/O, order acknowledgments, logging, and distributed computation. The key is to avoid blocking hot paths while maintaining explicit ownership, ordering, and backpressure.\n\n---",
+      "tags": [
+        "coroutines",
+        "quant",
+        "cxx26"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c30-20",
+      "moduleId": "m30",
+      "moduleTitle": "C++26 direction: coroutines, async, and `std::execution`",
+      "moduleNumber": 30,
+      "number": "30.20",
+      "title": "Backpressure",
+      "slug": "30-20-backpressure",
+      "body": "Async systems can fail if producers are faster than consumers.\n\nExample:\n\n- Market data arrives faster than strategy can process.\n- Log messages arrive faster than disk can write.\n- Risk tasks pile up in a thread pool.\n\nBackpressure means the system has a way to slow producers, drop data intentionally, batch work, or reject work.\n\nStrategies:\n\n- Bounded queues\n- Dropping stale updates\n- Coalescing updates\n- Applying flow control\n- Prioritizing important messages\n- Measuring queue depth\n\n### Interview answer\n\n> Backpressure prevents an async system from accumulating unbounded work. In trading systems, bounded queues and explicit overload policies are essential because unbounded latency can be worse than dropping or coalescing low-priority work.\n\n---",
+      "tags": [
+        "coroutines",
+        "cxx26"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c30-21",
+      "moduleId": "m30",
+      "moduleTitle": "C++26 direction: coroutines, async, and `std::execution`",
+      "moduleNumber": 30,
+      "number": "30.21",
+      "title": "Cancellation",
+      "slug": "30-21-cancellation",
+      "body": "In async systems, cancellation is not necessarily an error.\n\nExample:\n\n- Cancel a stale risk calculation.\n- Stop a strategy loop.\n- Cancel an order operation after disconnect.\n- Stop reading a file when backtest is aborted.\n\nC++26 senders/receivers explicitly model a stopped channel separate from value and error.\n\n### Interview answer\n\n> Cancellation should be modeled explicitly. It is not always an error. A well-designed async system distinguishes success, failure, and cancellation so cleanup and state transitions are correct.\n\n---",
+      "tags": [
+        "coroutines",
+        "cxx26"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c30-22",
+      "moduleId": "m30",
+      "moduleTitle": "C++26 direction: coroutines, async, and `std::execution`",
+      "moduleNumber": 30,
+      "number": "30.22",
+      "title": "Error handling in async code",
+      "slug": "30-22-error-handling-in-async-code",
+      "body": "Synchronous errors:\n\n```cpp\ntry {\n    auto x = compute();\n} catch (...) {\n}\n```\n\nAsync errors must be transported to the completion handler, future, receiver, or coroutine result.\n\nIn sender/receiver thinking:\n\n- Success → value channel\n- Failure → error channel\n- Cancellation → stopped channel\n\n### Interview answer\n\n> Async error handling requires errors to be propagated through the async completion mechanism. In C++26 sender/receiver style, errors are separate from cancellation and success, which makes pipeline behavior more explicit.\n\n---",
+      "tags": [
+        "coroutines",
+        "cxx26"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c30-23",
+      "moduleId": "m30",
+      "moduleTitle": "C++26 direction: coroutines, async, and `std::execution`",
+      "moduleNumber": 30,
+      "number": "30.23",
+      "title": "Thread pools",
+      "slug": "30-23-thread-pools",
+      "body": "A thread pool owns a set of worker threads and a queue of tasks.\n\nBasic mental model:\n\n```text\nsubmit task → queue → worker thread picks task → task runs\n```\n\nWhy use a thread pool instead of creating threads repeatedly?\n\n- Thread creation is expensive.\n- Too many threads cause context-switch overhead.\n- A pool can bound concurrency.\n- A pool can manage scheduling policies.\n\n### Basic thread pool interface concept\n\n```cpp\nclass ThreadPool {\npublic:\n    template <typename F>\n    void submit(F&& f);\n};\n```\n\nIn C++26-oriented design, a thread pool would expose a scheduler compatible with `std::execution`.\n\n### Interview answer\n\n> A thread pool amortizes thread creation cost and bounds concurrency. In a C++26-style design, a thread pool is an execution resource, and its scheduler can produce senders for work that should run on the pool.\n\n---",
+      "tags": [
+        "coroutines",
+        "concurrency",
+        "cxx26"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c30-24",
+      "moduleId": "m30",
+      "moduleTitle": "C++26 direction: coroutines, async, and `std::execution`",
+      "moduleNumber": 30,
+      "number": "30.24",
+      "title": "Important pitfalls in async C++",
+      "slug": "30-24-important-pitfalls-in-async-c",
+      "body": "## Pitfall 1: dangling references across async boundaries\n\nBad:\n\n```cpp\nvoid submit_work(ThreadPool& pool) {\n    std::string symbol = \"AAPL\";\n    pool.submit([&] {\n        use(symbol); // dangling if runs after submit_work returns\n    });\n}\n```\n\nFix:\n\n```cpp\nvoid submit_work(ThreadPool& pool) {\n    std::string symbol = \"AAPL\";\n    pool.submit([symbol = std::move(symbol)] {\n        use(symbol);\n    });\n}\n```\n\nCapture by value when work outlives the current scope.\n\n## Pitfall 2: blocking inside async tasks\n\nIf every worker blocks waiting for more work from the same pool, you can deadlock or starve the pool.\n\nBad pattern:\n\n```cpp\nauto f = pool.submit(task_a);\nauto result = f.get(); // worker blocks waiting\n```\n\nBetter:\n\n- Compose continuations.\n- Use non-blocking async chains.\n- Use separate execution resources when blocking is unavoidable.\n\n## Pitfall 3: unbounded queues\n\nUnbounded queues can hide overload until latency explodes.\n\nUse bounded queues and explicit policies.\n\n## Pitfall 4: unclear execution context\n\nYou should know where continuation code runs.\n\nQuestion to ask:\n\n> Which thread or scheduler executes this callback/receiver/coroutine continuation?\n\n## Pitfall 5: exceptions disappearing\n\nAsync errors must be captured and delivered somewhere.\n\n---",
+      "tags": [
+        "coroutines",
+        "cxx26"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c30-25",
+      "moduleId": "m30",
+      "moduleTitle": "C++26 direction: coroutines, async, and `std::execution`",
+      "moduleNumber": 30,
+      "number": "30.25",
+      "title": "Interview questions: coroutines",
+      "slug": "30-25-interview-questions-coroutines",
+      "body": "### Q: What is a coroutine?\n\nAnswer:\n\n> A coroutine is a function that can suspend execution and resume later. In C++, a function becomes a coroutine if it uses `co_await`, `co_yield`, or `co_return`. Coroutines are compiled into state machines with coroutine frames storing state across suspension points.\n\n### Follow-up: Is a coroutine a thread?\n\nAnswer:\n\n> No. A coroutine is not an execution resource. It runs on a thread when resumed, but suspension does not block that thread. Threads provide execution; coroutines provide suspendable control flow.\n\n### Follow-up: What is stored in a coroutine frame?\n\nAnswer:\n\n> State needed to resume the coroutine, including local variables that live across suspension points, the current suspension point, the promise object, and bookkeeping for resumption and destruction.\n\n### Q: What is `co_await`?\n\nAnswer:\n\n> `co_await` suspends a coroutine until an awaitable operation is ready. The awaiter controls whether suspension happens, what happens at suspension, and what value is produced on resume through `await_ready`, `await_suspend`, and `await_resume`.\n\n### Q: What is `co_yield`?\n\nAnswer:\n\n> `co_yield` produces a value from a coroutine and suspends, commonly used to implement lazy generators.\n\n### Q: What is `co_return`?\n\nAnswer:\n\n> `co_return` completes a coroutine and passes the result to the coroutine promise. Coroutines do not use ordinary `return` for returning values.\n\n### Q: Why are coroutines useful for async I/O?\n\nAnswer:\n\n> They let asynchronous code be written in a sequential style without blocking threads. Instead of nested callbacks, you write `co_await read`, then process, then `co_await write`.\n\n### Q: What are coroutine pitfalls?\n\nAnswer:\n\n> Dangling references across suspension, unclear lifetime of coroutine frames, forgetting who resumes/destroys the coroutine, blocking inside coroutines, and assuming coroutines automatically create parallelism.\n\n---",
+      "tags": [
+        "coroutines",
+        "cxx26"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c30-26",
+      "moduleId": "m30",
+      "moduleTitle": "C++26 direction: coroutines, async, and `std::execution`",
+      "moduleNumber": 30,
+      "number": "30.26",
+      "title": "Interview questions: async and C++26 `std::execution`",
+      "slug": "30-26-interview-questions-async-and-c-26-std-execution",
+      "body": "### Q: What problem does C++26 `std::execution` solve?\n\nAnswer:\n\n> It provides a standard vocabulary and framework for asynchronous and parallel execution. Older tools like `std::thread` and `std::future` are low-level or poorly composable. `std::execution` introduces schedulers, senders, receivers, and operation states to express where work runs, how it composes, and how success, error, and cancellation are delivered.\n\n### Q: What is a sender?\n\nAnswer:\n\n> A sender describes asynchronous work. It can complete with a value, an error, or a stopped signal. It is typically lazy: creating a sender describes work but does not necessarily start it.\n\n### Q: What is a receiver?\n\nAnswer:\n\n> A receiver consumes the completion of a sender. It handles separate channels for success, error, and cancellation.\n\n### Q: What is a scheduler?\n\nAnswer:\n\n> A scheduler is a lightweight handle to an execution resource such as a thread pool, event loop, or GPU stream. It controls where work runs.\n\n### Q: What is an operation state?\n\nAnswer:\n\n> Connecting a sender and receiver creates an operation state. Starting the operation state begins the work. The operation state must remain alive until the async operation completes.\n\n### Q: Why are senders/receivers better than futures?\n\nAnswer:\n\n> They are more composable, make execution context explicit, model cancellation separately from errors, and can represent async work across many execution resources. Standard futures are mostly one-shot result holders and do not naturally form async graphs.\n\n### Q: Does `std::execution` require coroutines?\n\nAnswer:\n\n> No. Senders/receivers and coroutines are separate but complementary. `std::execution` provides an async composition and scheduling model. Coroutines provide language syntax for suspension and resumption. Libraries can integrate them.\n\n### Q: Will C++26 automatically give me a production thread pool?\n\nAnswer:\n\n> Not necessarily in the way many developers expect. The standard execution model provides abstractions for execution resources and composition. Actual thread-pool implementations and maturity will depend on standard library support and ecosystem libraries.\n\n---",
+      "tags": [
+        "coroutines",
+        "cxx26"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c30-27",
+      "moduleId": "m30",
+      "moduleTitle": "C++26 direction: coroutines, async, and `std::execution`",
+      "moduleNumber": 30,
+      "number": "30.27",
+      "title": "Coding drills for coroutines and async",
+      "slug": "30-27-coding-drills-for-coroutines-and-async",
+      "body": "## Drill 1: Explain coroutine transformation\n\nTake this conceptual coroutine:\n\n```cpp\ntask<int> f() {\n    int x = 10;\n    co_await something();\n    co_return x + 1;\n}\n```\n\nExplain:\n\n- Why `x` must survive suspension\n- What the coroutine frame stores\n- Why `task<int>` must provide coroutine machinery\n- Who resumes the coroutine\n\n## Drill 2: Generator mental model\n\nImplement or study a simple `generator<int>` that uses:\n\n```cpp\nco_yield\n```\n\nExplain how each value is produced lazily.\n\n## Drill 3: Async lifetime bug\n\nGiven:\n\n```cpp\nvoid f(ThreadPool& pool) {\n    std::string s = \"AAPL\";\n    pool.submit([&] { use(s); });\n}\n```\n\nExplain the bug and fix it.\n\n## Drill 4: Future vs sender design\n\nDesign a three-stage pipeline:\n\n```text\nload file → parse rows → compute metrics\n```\n\nDescribe how it would look with:\n\n- blocking synchronous code\n- futures\n- coroutine style\n- sender/receiver style\n\n## Drill 5: Async order gateway\n\nDesign an async order flow:\n\n```text\nsend order → await ack → process fills → handle cancel\n```\n\nExplain:\n\n- Where state lives\n- How cancellation works\n- How errors propagate\n- What must not block\n\n---",
+      "tags": [
+        "coroutines",
+        "cxx26"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c30-28",
+      "moduleId": "m30",
+      "moduleTitle": "C++26 direction: coroutines, async, and `std::execution`",
+      "moduleNumber": 30,
+      "number": "30.28",
+      "title": "How much coroutine detail do quant interviews expect?",
+      "slug": "30-28-how-much-coroutine-detail-do-quant-interviews-expect",
+      "body": "For many quant C++ interviews, you do not need to implement a full coroutine type from scratch. But for intermediate C++26-oriented confidence, you should be able to explain:\n\n- What makes a function a coroutine\n- Difference between coroutine and thread\n- `co_await`, `co_yield`, `co_return`\n- Coroutine frame and lifetime\n- Promise/awaiter at a high level\n- Why coroutines help async I/O\n- Why they do not automatically give parallelism\n- How they relate to event loops/schedulers\n- Why C++26 `std::execution` matters\n- Sender, receiver, scheduler, operation state\n- Value/error/stopped channels\n- Common async lifetime bugs\n\nThat is enough for most interviews unless the role specifically focuses on coroutine libraries, networking frameworks, or C++ standard-library internals.\n\n---",
+      "tags": [
+        "coroutines",
+        "quant",
+        "cxx26"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c31-1",
+      "moduleId": "m31",
+      "moduleTitle": "C++26 features you should know for quant interviews",
+      "moduleNumber": 31,
+      "number": "31.1",
+      "title": "`std::execution`",
+      "slug": "31-1-std-execution",
+      "body": "Most relevant for modern async, parallel execution, and composable task graphs.\n\nKnow:\n\n- Scheduler\n- Sender\n- Receiver\n- Operation state\n- Value/error/stopped channels\n- `run_loop`\n- Relationship to coroutines",
+      "tags": [
+        "quant",
+        "cxx26"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c31-2",
+      "moduleId": "m31",
+      "moduleTitle": "C++26 features you should know for quant interviews",
+      "moduleNumber": 31,
+      "number": "31.2",
+      "title": "`std::inplace_vector`",
+      "slug": "31-2-std-inplace-vector",
+      "body": "A fixed-capacity vector with dynamic size.\n\nMental model:\n\n```text\nvector-like API\nfixed maximum capacity\nstorage is inside the object\nno heap allocation after construction\n```\n\nWhy quant developers care:\n\n- Useful in low-latency hot paths.\n- Avoids heap allocation.\n- Keeps contiguous storage.\n- Good when maximum size is known.\n\nExample use case:\n\n```text\nsmall list of order modifications\nsmall batch of risk checks\nfixed maximum number of legs in a strategy\n```\n\nInterview answer:\n\n> `inplace_vector` is useful when I want vector-like contiguous storage but with fixed capacity and no dynamic allocation. That can be valuable in low-latency code where heap allocations are undesirable.",
+      "tags": [
+        "stl",
+        "quant",
+        "cxx26"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c31-3",
+      "moduleId": "m31",
+      "moduleTitle": "C++26 features you should know for quant interviews",
+      "moduleNumber": 31,
+      "number": "31.3",
+      "title": "`std::hive`",
+      "slug": "31-3-std-hive",
+      "body": "Formerly based on colony-like containers.\n\nMental model:\n\n- Sequence container\n- Stable references/iterators under many operations\n- Reuses erased element memory\n- Not contiguous like vector\n\nWhy care:\n\n- Useful when stable references matter and frequent insert/erase occurs.\n- Potential alternative to list-like structures in some systems.\n\nInterview answer:\n\n> `hive` is useful for workloads with frequent insertion and erasure where pointer/reference stability matters. It is not a replacement for vector in cache-critical scanning, but it can be better than list-like structures for some dynamic object sets.",
+      "tags": [
+        "quant",
+        "cxx26"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c31-4",
+      "moduleId": "m31",
+      "moduleTitle": "C++26 features you should know for quant interviews",
+      "moduleNumber": 31,
+      "number": "31.4",
+      "title": "`std::linalg`",
+      "slug": "31-4-std-linalg",
+      "body": "C++26 adds standard linear algebra interfaces.\n\nWhy quant researchers care:\n\n- Matrix/vector operations\n- Numerical code standardization\n- Potential BLAS-style backend integration\n\nInterview angle:\n\n> For serious quant numerical work, I would still evaluate Eigen, BLAS/LAPACK, or vendor libraries, but `std::linalg` shows that standard C++ is moving toward more native numerical abstractions.",
+      "tags": [
+        "quant",
+        "cxx26"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c31-5",
+      "moduleId": "m31",
+      "moduleTitle": "C++26 features you should know for quant interviews",
+      "moduleNumber": 31,
+      "number": "31.5",
+      "title": "`std::simd`",
+      "slug": "31-5-std-simd",
+      "body": "SIMD means single instruction, multiple data.\n\nUseful for:\n\n- Vectorized numerical loops\n- Monte Carlo paths\n- Risk calculations\n- Signal processing\n\nMental model:\n\n```text\noperate on multiple numbers at once using vector registers\n```\n\nInterview answer:\n\n> SIMD can speed up data-parallel numerical loops by applying one instruction to multiple values. For quant code, it may help Monte Carlo, pricing grids, and risk calculations, but data layout and memory bandwidth still matter.",
+      "tags": [
+        "quant",
+        "cxx26"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c31-6",
+      "moduleId": "m31",
+      "moduleTitle": "C++26 features you should know for quant interviews",
+      "moduleNumber": 31,
+      "number": "31.6",
+      "title": "Hazard pointers and RCU",
+      "slug": "31-6-hazard-pointers-and-rcu",
+      "body": "C++26 adds standard-library support related to safe memory reclamation patterns such as hazard pointers and RCU.\n\nWhy this matters:\n\n- Lock-free and read-mostly concurrent data structures need safe memory reclamation.\n- You cannot simply delete nodes while another thread might still read them.\n\nInterview answer:\n\n> In lock-free or read-mostly data structures, memory reclamation is hard because another thread may still hold a pointer to a removed node. Hazard pointers and RCU are techniques for safely delaying reclamation until readers are done.",
+      "tags": [
+        "pointers",
+        "quant",
+        "cxx26"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c31-7",
+      "moduleId": "m31",
+      "moduleTitle": "C++26 features you should know for quant interviews",
+      "moduleNumber": 31,
+      "number": "31.7",
+      "title": "Contracts",
+      "slug": "31-7-contracts",
+      "body": "C++26 includes contracts direction through contract assertions.\n\nMental model:\n\n```text\nstate preconditions, postconditions, and assertions more explicitly\n```\n\nQuant relevance:\n\n- Risk limits\n- Order invariants\n- Matrix dimension requirements\n- Valid price/quantity assumptions\n\nInterview answer:\n\n> Contracts are useful for documenting and checking assumptions such as valid order quantities, non-null dependencies, or matrix dimension compatibility. They help make invariants explicit.",
+      "tags": [
+        "quant",
+        "cxx26"
+      ],
+      "difficulty": "advanced"
+    },
+    {
+      "id": "c31-8",
+      "moduleId": "m31",
+      "moduleTitle": "C++26 features you should know for quant interviews",
+      "moduleNumber": 31,
+      "number": "31.8",
+      "title": "Reflection",
+      "slug": "31-8-reflection",
+      "body": "C++26 moves toward compile-time reflection.\n\nWhy care:\n\n- Serialization\n- Schema generation\n- Logging\n- Data binding\n- Config systems\n\nQuant example:\n\n```text\nreflect fields of MarketDataMessage\n→ generate parser/logging/schema code\n```\n\nInterview answer:\n\n> Reflection can reduce boilerplate for serialization, logging, schema generation, and generic tooling. For quant systems with many message types, compile-time reflection could eventually simplify safe, efficient infrastructure.\n\n---",
+      "tags": [
+        "quant",
+        "cxx26"
+      ],
+      "difficulty": "advanced"
+    }
+  ],
+  "practiceModuleIds": [
+    "m1",
+    "m2",
+    "m3",
+    "m4",
+    "m5",
+    "m6",
+    "m7",
+    "m8",
+    "m9",
+    "m10",
+    "m11",
+    "m12",
+    "m13",
+    "m14",
+    "m15",
+    "m16",
+    "m17",
+    "m18",
+    "m19",
+    "m20",
+    "m21",
+    "m22",
+    "m23",
+    "m24",
+    "m25",
+    "m26",
+    "m27",
+    "m30",
+    "m31"
+  ]
+}
